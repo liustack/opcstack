@@ -8,6 +8,7 @@ This repository (`liustack/opcstack`) is **opcstack — the one-person company s
 
 ```
 README.md          # Public-facing intro
+docs/philosophy.md # Core design principles — read before designing or revising any skill
 skills/            # The opcstack skill stack (product core, opc-* skills)
 scripts/           # Validation and release utilities
 ```
