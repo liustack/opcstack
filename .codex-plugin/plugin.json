@@ -1,0 +1,10 @@
+{
+  "name": "opcstack",
+  "version": "1.0.0",
+  "skills": "./skills/",
+  "hooks": {},
+  "interface": {
+    "displayName": "opcstack",
+    "shortDescription": "The one-person company skill stack"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "opcstack",
+  "owner": {
+    "name": "liustack",
+    "email": "leonstdio@gmail.com"
+  },
+  "metadata": {
+    "description": "opcstack — 一人公司技能栈：商业拆解、细分市场发现、营销诊断。The one-person company skill stack: business deconstruction, niche discovery, marketing diagnosis.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "opcstack",
+      "description": "完整技能栈：路由入口 + 商业拆解 + 细分市场发现 + 营销诊断，一次装齐",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0"
+    },
+    {
+      "name": "opc",
+      "description": "opcstack 技能栈入口与路由",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "skills": ["./skills/opc"]
+    },
+    {
+      "name": "opc-analyze",
+      "description": "商业拆解三模式：标杆人物、标杆产品、自家项目体检",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "skills": ["./skills/opc-analyze"]
+    },
+    {
+      "name": "opc-niche",
+      "description": "细分市场发现：找到并评分未被满足的市场",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "skills": ["./skills/opc-niche"]
+    },
+    {
+      "name": "opc-marketing",
+      "description": "营销诊断：定位增长瓶颈，路由到对的专项打法",
+      "source": "./",
+      "strict": false,
+      "version": "1.0.0",
+      "skills": ["./skills/opc-marketing"]
+    }
+  ]
+}
