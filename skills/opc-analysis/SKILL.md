@@ -1,6 +1,6 @@
 ---
 name: opc-analysis
-description: 商业拆解：标杆人物拆解（levelsio、Marc Lou 等）与标杆产品拆解，基于五要素框架（人性/价值/结构/时间/风险）+ SOP。Business deconstruction of role-model founders and benchmark products using the five-element framework. Use when the user wants to 拆解某个人物或产品 / 分析商业模式 / analyze this indie hacker or product. Do not trigger for health-checking your own idea（自家项目体检是 opc-checkup）.
+description: 商业拆解：标杆人物拆解（levelsio、Marc Lou 等）与标杆产品拆解，基于五要素框架（人性/价值/结构/时间/风险）+ SOP。Business deconstruction of role-model founders and benchmark products using the five-factor framework. Use when the user wants to 拆解某个人物或产品 / 分析商业模式 / analyze this indie hacker or product. Do not trigger for health-checking your own idea（自家项目体检是 opc-checkup）.
 ---
 
 ## 何时用与模式选择
@@ -16,7 +16,7 @@ description: 商业拆解：标杆人物拆解（levelsio、Marc Lou 等）与�
 
 ## 共同底座：五要素
 
-三种模式都建立在同一套五要素框架上，完整展开见 `references/five-elements.md`。速查：
+三种模式都建立在同一套五要素框架上，完整展开见 `references/framework.md`。速查：
 
 | 要素 | 核心问句 |
 |---|---|
@@ -26,7 +26,7 @@ description: 商业拆解：标杆人物拆解（levelsio、Marc Lou 等）与�
 | 时间与复利 | 生意的生态存在期多长？窗口长度、期内回报、退出成本、结束时可带走什么？复利是加分项不是及格线 |
 | 风险与反脆弱 | 哪里有单点依赖？波动来了是死还是更强？ |
 
-需要更细的关键问题清单、关键词表、关键书目时，读 `references/five-elements.md`。
+需要更细的关键问题清单、关键词表、关键书目时，读 `references/framework.md`。
 
 ## person 模式
 

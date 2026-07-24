@@ -1,6 +1,6 @@
 # opcstack
 
-**The one-person company skill stack.** Agent skills for solo founders — indie hackers, content creators, and consultants — covering business deconstruction, niche discovery, and marketing diagnosis. Built on a dual foundation: the five-element business framework (how to see a business) and the mental-model lattice applied to business decisions (how to decide, and how not to fool yourself) — shared with [liustack](https://github.com/liustack/liustack), its thinking-and-dev sibling.
+**The one-person company skill stack.** Agent skills for solo founders — indie hackers, content creators, and consultants — covering business deconstruction, niche discovery, and marketing diagnosis. Built on a dual foundation: the five-factor business framework (how to see a business) and the mental-model lattice applied to business decisions (how to decide, and how not to fool yourself) — shared with [liustack](https://github.com/liustack/liustack), its thinking-and-dev sibling.
 
 [中文](./README.zh-CN.md)
 
