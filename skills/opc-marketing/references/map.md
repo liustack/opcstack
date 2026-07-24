@@ -26,8 +26,8 @@
 | 获客·工程化 | free-tools（免费工具做获客钩子） | lead-magnets |
 | 激活 | onboarding、signup | cro、popups |
 | 留存 | churn-prevention | emails（生命周期）、community-marketing |
-| 推荐 | referrals | co-marketing、influencer-marketing |
 | 收入 | pricing、offers | paywalls、sales-enablement（销售辅助）、revops（B2B 线索管理） |
+| 推荐 | referrals | co-marketing、influencer-marketing |
 | 用户理解（横切） | customer-research | marketing-psychology、competitor-profiling、competitors |
 | 没思路要点子 | marketing-ideas | marketing-council（模拟顾问团） |
 
