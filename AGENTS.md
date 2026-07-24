@@ -18,7 +18,6 @@ scripts/           # Validation and release utilities
 - Skill directory name = frontmatter `name` = `opc-xxx` (hard requirement for Codex and `npx skills`).
 - Every skill is **self-contained**: knowledge material lives in the skill's own `references/`, no repo-level shared knowledge base.
 - Skill body in Chinese, frontmatter `description` bilingual (Chinese + English) for auto-triggering and skills.sh discoverability.
-- `opc` is the router entry point: it reads context and routes to the right `opc-*` skill, mirroring liustack's `ls` router.
 - Validate with `bash scripts/check-skills.sh` and `bash scripts/check-contract.sh` before committing skill or manifest changes.
 - Testing layout: deterministic code tests go in `tests/` once such code exists. Model-behavior evals live in repo-level `evals/<skill-name>/` (official skill-creator schema) — never inside `skills/`, so installs stay clean.
 - License is CC BY-NC 4.0 (see LICENSE.md) — non-commercial use is free, commercial use requires a separate license. Do not add MIT-licensed-looking headers.

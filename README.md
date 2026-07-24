@@ -25,7 +25,6 @@ Claude Code marketplace:
 
 | Skill | What it does |
 |---|---|
-| `opc` | Router — hand it any business question, it picks the right skill |
 | `opc-analysis` | Business deconstruction — role-model founders and benchmark products |
 | `opc-checkup` | Business health check — cash-flow razor, lifespan pricing, unit economics, fatal dependencies |
 | `opc-niche` | Niche discovery — find and score underserved markets |

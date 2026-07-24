@@ -11,20 +11,10 @@
   "plugins": [
     {
       "name": "opcstack",
-      "description": "完整技能栈：路由入口 + 商业拆解 + 商业体检 + 细分市场发现 + 营销诊断 + 发布 playbook，一次装齐",
+      "description": "完整技能栈：商业拆解 + 商业体检 + 细分市场发现 + 营销诊断 + 发布 playbook，一次装齐",
       "source": "./",
       "strict": false,
       "version": "0.0.1"
-    },
-    {
-      "name": "opc",
-      "description": "opcstack 技能栈入口与路由",
-      "source": "./",
-      "strict": false,
-      "version": "0.0.1",
-      "skills": [
-        "./skills/opc"
-      ]
     },
     {
       "name": "opc-analysis",
