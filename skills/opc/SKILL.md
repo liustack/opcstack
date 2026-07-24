@@ -28,6 +28,7 @@ description: opcstack 技能栈入口与路由。把当前的商业问题交给�
 | 给自己的 idea/项目做体检、决定做不做/还要不要继续 | opc-checkup |
 | 不知道做什么方向、想找细分市场、选赛道 | opc-niche |
 | 有产品没增长、不知道营销从哪下手、增长卡住了 | opc-marketing |
+| 要发布产品、上 Product Hunt/Show HN、规划发布节奏 | opc-launch |
 
 ## 兜底
 

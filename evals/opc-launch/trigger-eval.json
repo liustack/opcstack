@@ -1,0 +1,106 @@
+{
+  "skill_name": "opc-launch",
+  "type": "trigger",
+  "cases": [
+    {
+      "id": 1,
+      "query": "我的产品要发布了，怎么推",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "launch on Product Hunt 该怎么准备",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "Show HN 怎么发不会翻车",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "帮我规划一下发布节奏",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "下个月上线，发布前要做什么",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "这是我第二次发布同一个产品，怎么发",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "plan my launch for next week",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "waitlist 该怎么蓄水",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "发布日当天该干什么",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "想冲 Product Hunt 当日第一",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "帮我部署到生产环境",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "npm publish 怎么发包",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "发布一个 GitHub release",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "把这个分支发版",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "发布会 PPT 帮我做",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "朋友圈文案怎么写",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "这个 API 版本怎么升级",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "帮我写发布日志 changelog",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "App Store 审核被拒怎么办",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "k8s 滚动发布怎么配",
+      "should_trigger": false
+    }
+  ]
+}

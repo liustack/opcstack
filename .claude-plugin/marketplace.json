@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "opcstack",
-      "description": "完整技能栈：路由入口 + 商业拆解 + 商业体检 + 细分市场发现 + 营销诊断，一次装齐",
+      "description": "完整技能栈：路由入口 + 商业拆解 + 商业体检 + 细分市场发现 + 营销诊断 + 发布 playbook，一次装齐",
       "source": "./",
       "strict": false,
       "version": "0.0.1"
@@ -64,6 +64,16 @@
       "version": "0.0.1",
       "skills": [
         "./skills/opc-marketing"
+      ]
+    },
+    {
+      "name": "opc-launch",
+      "description": "产品发布 playbook：定目标、蓄水、分批渠道编排、复发布三式",
+      "source": "./",
+      "strict": false,
+      "version": "0.0.1",
+      "skills": [
+        "./skills/opc-launch"
       ]
     }
   ]

@@ -30,6 +30,7 @@ Claude Code marketplace:
 | `opc-checkup` | Business health check — cash-flow razor, lifespan pricing, unit economics, fatal dependencies |
 | `opc-niche` | Niche discovery — find and score underserved markets |
 | `opc-marketing` | Marketing diagnosis — locate your funnel bottleneck, ground the fix in human-nature theory |
+| `opc-launch` | Launch playbook — goals, waitlist, staged channels, relaunch moves, hard pre-launch gate |
 
 ## Philosophy
 

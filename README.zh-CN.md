@@ -30,6 +30,7 @@ Claude Code 插件市场：
 | `opc-checkup` | 商业体检——现金流 Razor、寿命定价、单元经济、致命依赖 |
 | `opc-niche` | 细分市场发现——找到并评分未被满足的市场 |
 | `opc-marketing` | 营销诊断——定位漏斗瓶颈，用人性底层理论给出解法 |
+| `opc-launch` | 发布 playbook——定目标、蓄水、分批渠道、复发布三式、发布前硬门 |
 
 ## 理念
 
