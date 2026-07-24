@@ -1,6 +1,6 @@
 ---
 name: opc-niche
-description: 细分市场发现与评估：四路信号交叉验证（关键词/社区痛点/竞品差评/趋势）+ 五维评分卡 + AI 红海测试，输出 go/收窄/no-go 结论。Niche discovery and scoring for one-person companies. Use when the user wants to 找方向 / 选赛道 / 找细分市场 / 验证一个 niche / find a niche / validate a market idea / what should I build.
+description: 细分市场发现与评估：四路信号交叉验证（关键词/社区痛点/竞品差评/趋势）+ 五维评分卡 + AI 红海测试，输出 go/收窄/no-go 结论。Niche discovery and scoring for one-person companies. Use when the user wants to 找产品或生意方向 / 选赛道 / 找细分市场 / 验证一个 niche / find a niche / validate a market idea / what product or business should I build.
 ---
 
 # opc-niche：细分市场发现与评估

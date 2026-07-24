@@ -22,4 +22,5 @@ scripts/           # Validation and release utilities
 - Validate with `bash scripts/check-skills.sh` before committing skill changes.
 - License is CC BY-NC 4.0 (see LICENSE.md) — non-commercial use is free, commercial use requires a separate license. Do not add MIT-licensed-looking headers.
 - Skill `description` fields must be lean and keyword-first: harnesses inject every installed skill's description into context, so the opening clause must carry the trigger keywords.
+- Triggering discipline: state what the skill is + when to use + how it differs from neighboring skills, add an explicit exclusion clause ("Do not trigger for…") when positive triggers are broad, never use moral imperatives (MUST/ALWAYS), and one trigger per branch (no synonym restating).
 - Working drafts go in `.issues/<YYYY-MM-DD-topic>/` (gitignored), organized by task, not by type.

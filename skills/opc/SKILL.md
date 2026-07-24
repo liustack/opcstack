@@ -1,6 +1,6 @@
 ---
 name: opc
-description: opcstack 技能栈入口与路由。把当前的商业问题交给它，它根据上下文选择合适的 opc-* 技能并按其流程执行。Entry point and router for the opcstack one-person company skill stack. Hand it any business question and it routes to the right opc-* skill. Use when the user invokes /opc, mentions opcstack, or is unsure which business skill applies.
+description: opcstack 技能栈入口与路由。把当前的商业问题交给它，它根据上下文选择合适的 opc-* 技能并按其流程执行。Entry point and router for the opcstack one-person company skill stack. Hand it any business question and it routes to the right opc-* skill. Use when the user invokes /opc, mentions opcstack, or is unsure which business skill applies. Do not trigger for requests with no business question（不涉及商业问题的请求不触发）.
 ---
 
 ## 工作方式
