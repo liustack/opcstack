@@ -1,0 +1,9 @@
+node_modules/
+skills/**/outputs/
+.DS_Store
+.env
+.idea/
+.vscode
+.issues/
+.claude/settings.local.json
+.superpowers/
