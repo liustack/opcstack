@@ -22,7 +22,7 @@ for dir in skills/*/; do
   if [[ -z "$desc" ]]; then
     echo "FAIL $dirname: empty description"
     fail=1
-  elif ! (printf '%s' "$desc" | grep -q '[a-zA-Z]' && printf '%s' "$desc" | grep -q '[一-龥]'); then
+  elif ! (printf '%s' "$desc" | grep -q '[a-zA-Z]' && printf '%s' "$desc" | python3 -c 'import sys;sys.exit(0 if any("\u4e00"<=c<="\u9fff" for c in sys.stdin.read()) else 1)'); then
     echo "FAIL $dirname: description not bilingual"
     fail=1
   elif printf '%s' "$desc" | grep -q ': ' && [[ "${desc:0:1}" != '"' && "${desc:0:1}" != "'" ]]; then
