@@ -1,0 +1,106 @@
+{
+  "skill_name": "opc",
+  "type": "trigger",
+  "cases": [
+    {
+      "id": 1,
+      "query": "/opc",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "用 opcstack 帮我看看",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "我有个商业问题，不知道该用哪个技能",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "一人公司这摊子事帮我理理",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "opcstack 里哪个技能适合我现在的情况",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "这个生意问题交给你路由",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "帮我选个合适的商业分析技能",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "我想搞点副业，从哪开始分析",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "商业上这事怎么入手，你带路",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "run this through opcstack",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "帮我修这个 bug",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "写个爬虫抓数据",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "今天纳指怎么样",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "把这份合同翻译成英文",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "公司注册流程是什么",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "报销单怎么填",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "帮我调试支付接口",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "优化这个数据库索引",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "写个周会纪要",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "这个报错什么意思",
+      "should_trigger": false
+    }
+  ]
+}

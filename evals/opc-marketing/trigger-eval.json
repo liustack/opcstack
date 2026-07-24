@@ -1,0 +1,106 @@
+{
+  "skill_name": "opc-marketing",
+  "type": "trigger",
+  "cases": [
+    {
+      "id": 1,
+      "query": "没增长，不知道营销从哪下手",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "获客好难，帮我看看",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "marketing isn't working for my app",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "增长卡住了",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "我该聚焦哪个渠道",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "我的 app 没人用，营销诊断一下",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "漏斗哪里出问题了帮我看",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "which channel should I focus on",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "用户来了但不注册，怎么破",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "营销预算该往哪花",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "帮我写三条小红书文案",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "Google Ads 开户流程",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "市场营销学考试重点",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "帮我做张宣传海报",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "SEO 的 meta 标签怎么写",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "写个群发邮件的脚本",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "给产品起个 slogan",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "分析这个经典营销案例",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "帮我剪个宣传视频",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "双十一活动排期表怎么排",
+      "should_trigger": false
+    }
+  ]
+}

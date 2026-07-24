@@ -1,0 +1,106 @@
+{
+  "skill_name": "opc-niche",
+  "type": "trigger",
+  "cases": [
+    {
+      "id": 1,
+      "query": "帮我找个产品方向",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "选赛道选得很纠结",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "想找个细分市场切入",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "验证一下这个 niche 靠不靠谱",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "what product should I build",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "这个细分领域值不值得进",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "帮我评估这个市场机会",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "find a niche that fits my skills",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "我想做 AI 工具但不知道切哪块",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "用评分卡帮我评估这个方向",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "我人生该往哪个方向走",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "帮我选个前端框架",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "把这个函数细分成小函数",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "niche 这个词是什么意思",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "我网站的分类页怎么设计",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "高考志愿选什么专业",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "拆解一下竞品的商业模式",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "营销渠道该怎么选",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "帮我给产品起个名字",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "市场部的周报模板",
+      "should_trigger": false
+    }
+  ]
+}
