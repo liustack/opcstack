@@ -19,7 +19,8 @@ scripts/           # Validation and release utilities
 - Every skill is **self-contained**: knowledge material lives in the skill's own `references/`, no repo-level shared knowledge base.
 - Skill body in Chinese, frontmatter `description` bilingual (Chinese + English) for auto-triggering and skills.sh discoverability.
 - `opc` is the router entry point: it reads context and routes to the right `opc-*` skill, mirroring liustack's `ls` router.
-- Validate with `bash scripts/check-skills.sh` before committing skill changes.
+- Validate with `bash scripts/check-skills.sh` and `bash scripts/check-contract.sh` before committing skill or manifest changes.
+- Testing layout: deterministic code tests go in `tests/` once such code exists. Model-behavior evals live in repo-level `evals/<skill-name>/` (official skill-creator schema) — never inside `skills/`, so installs stay clean.
 - License is CC BY-NC 4.0 (see LICENSE.md) — non-commercial use is free, commercial use requires a separate license. Do not add MIT-licensed-looking headers.
 - Skill `description` fields must be lean and keyword-first: harnesses inject every installed skill's description into context, so the opening clause must carry the trigger keywords.
 - Triggering discipline: state what the skill is + when to use + how it differs from neighboring skills, add an explicit exclusion clause ("Do not trigger for…") when positive triggers are broad, never use moral imperatives (MUST/ALWAYS), and one trigger per branch (no synonym restating).
