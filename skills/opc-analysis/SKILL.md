@@ -1,18 +1,18 @@
 ---
-name: opc-analyze
-description: 商业拆解三模式：标杆人物拆解（levelsio、Marc Lou 等）、标杆产品拆解、自家项目商业体检。基于五要素框架（人性/价值/结构/时间/风险）+ 检查表 + SOP。Business analysis in three modes — deconstruct role-model founders, benchmark products, or health-check your own idea using the five-element framework. Use when the user wants to 拆解某个人物或产品 / 分析商业模式 / 给 idea 做体检 / analyze this indie hacker or product.
+name: opc-analysis
+description: 商业拆解：标杆人物拆解（levelsio、Marc Lou 等）与标杆产品拆解，基于五要素框架（人性/价值/结构/时间/风险）+ SOP。Business deconstruction of role-model founders and benchmark products using the five-element framework. Use when the user wants to 拆解某个人物或产品 / 分析商业模式 / analyze this indie hacker or product. Do not trigger for health-checking your own idea（自家项目体检是 opc-checkup）.
 ---
 
 ## 何时用与模式选择
 
-本技能有三种模式，先看拆解对象是什么，再确认模式，最后开工。不要跳过确认步骤直接分析。
+本技能有两种模式，先看拆解对象是什么，再确认模式，最后开工。不要跳过确认步骤直接分析。
 
 - 对象是**一个人**（创业者、研究者、产品经理、投资人、KOL 等，如 Pieter Levels、Marc Lou、Sam Altman）→ **person 模式**
 - 对象是**一个产品**（如 ChatGPT、Midjourney、Notion AI、Cursor 这类单个产品或单一产品线）→ **product 模式**
-- 对象是**自己的 idea / 现有项目**，需要做商业体检、决定做不做或还要不要继续 → **check 模式**
-- **拿别人产品对标自己**（如"帮我对比一下我的项目和 Notion AI"）→ 不是单一模式，先对标对象跑 **product 模式**拆对方，再对自己的项目跑 **check 模式**体检，最后手动整合两组结论产出对比
+- 对象是**自己的 idea / 现有项目**要做体检 → 不归本技能，用 **opc-checkup**
+- **拿别人产品对标自己**（如"帮我对比一下我的项目和 Notion AI"）→ 先对标对象跑 **product 模式**拆对方，再用 opc-checkup 体检自己的项目，最后手动整合两组结论产出对比
 
-拿到任务后，先向用户确认两件事：拆解对象具体是谁/是什么，以及三种模式里选哪一种。确认清楚再开始执行对应模式的步骤。
+拿到任务后，先向用户确认两件事：拆解对象具体是谁/是什么，以及两种模式里选哪一种。确认清楚再开始执行对应模式的步骤。
 
 ## 共同底座：五要素
 
@@ -23,7 +23,7 @@ description: 商业拆解三模式：标杆人物拆解（levelsio、Marc Lou �
 | 人性与需求 | 人为什么掏钱？（恐惧、贪婪、装逼、省事、归属感？） |
 | 价值与成本 | 你的价值是否远大于成本？能否规模化？ |
 | 结构与权力 | 谁掌握议价权？规则是谁定的？ |
-| 时间与复利 | 是一次性套利，还是可积累的复利资产？ |
+| 时间与复利 | 生意的生态存在期多长？窗口长度、期内回报、退出成本、结束时可带走什么？复利是加分项不是及格线 |
 | 风险与反脆弱 | 哪里有单点依赖？波动来了是死还是更强？ |
 
 需要更细的关键问题清单、关键词表、关键书目时，读 `references/five-elements.md`。
@@ -41,7 +41,7 @@ description: 商业拆解三模式：标杆人物拆解（levelsio、Marc Lou �
 5. 叙事与自我定位（对外主叙事、对内叙事、媒体构造的形象、叙事如何换资源和容错空间）
 6. 能力资源谱系 → 可迁移结论（哪些能力组合和资源路径值得抄，哪些是路径依赖/运气不必模仿，接下来 1–2 个月抄哪个具体动作）
 
-执行时完整读 `references/sop-person.md`，按里面的模板和问题清单逐步产出。
+执行时完整读 `references/mode-person.md`，按里面的模板和问题清单逐步产出。
 
 ## product 模式
 
@@ -55,20 +55,7 @@ description: 商业拆解三模式：标杆人物拆解（levelsio、Marc Lou �
 4. 叙事/机制/演化（对用户和投资人讲的故事、博弈与机制设计、创新与演化路径）
 5. 可迁移结论（五问：各要素最值得学的一点、可迁移的结构性经验、路径依赖不必模仿的部分、必须避坑的错误、复制到其他细分市场怎么实验）
 
-执行时完整读 `references/sop-product.md`，按里面的模板和问题清单逐步产出。
-
-## check 模式
-
-给自己的 idea 或现有项目做商业体检，本质是对商业逻辑做「理性体检」。
-
-概述四步：
-
-1. 跑「商业逻辑检查表」（按五要素分节逐条自问）
-2. 跑「商业叙事检查表」（清晰度/愿景承诺/行动成本/证伪后果/现实约束/动机分析/价值底座七维）
-3. 跑「能力圈&资源约束检查表」（能力圈位置/执行能力/关键资源/机会成本/心理&生活约束五节）
-4. 输出决策结论
-
-执行时完整读 `references/checklists.md`，按里面三张表逐条走完再给结论。
+执行时完整读 `references/mode-product.md`，按里面的模板和问题清单逐步产出。
 
 ## 硬规则
 

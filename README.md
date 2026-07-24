@@ -2,6 +2,8 @@
 
 **The one-person company skill stack.** Agent skills for solo founders — indie hackers, content creators, and consultants — covering business deconstruction, niche discovery, and marketing diagnosis. Built on a dual foundation: the five-element business framework (how to see a business) and the mental-model lattice applied to business decisions (how to decide, and how not to fool yourself) — shared with [liustack](https://github.com/liustack/liustack), its thinking-and-dev sibling.
 
+[中文](./README.zh-CN.md)
+
 ## Install
 
 ```bash
@@ -24,9 +26,10 @@ Claude Code marketplace:
 | Skill | What it does |
 |---|---|
 | `opc` | Router — hand it any business question, it picks the right skill |
-| `opc-analyze` | Business deconstruction in three modes: role-model founders, benchmark products, health-check your own idea |
+| `opc-analysis` | Business deconstruction — role-model founders and benchmark products |
+| `opc-checkup` | Business health check — cash-flow razor, lifespan pricing, unit economics, fatal dependencies |
 | `opc-niche` | Niche discovery — find and score underserved markets |
-| `opc-marketing` | Marketing diagnosis — locate your funnel bottleneck, get routed to the right specialist skill |
+| `opc-marketing` | Marketing diagnosis — locate your funnel bottleneck, ground the fix in human-nature theory |
 
 ## Philosophy
 

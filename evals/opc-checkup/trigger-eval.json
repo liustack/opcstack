@@ -1,105 +1,105 @@
 {
-  "skill_name": "opc-analyze",
+  "skill_name": "opc-checkup",
   "type": "trigger",
   "cases": [
     {
       "id": 1,
-      "query": "拆解一下 levelsio 的路径",
-      "should_trigger": true
-    },
-    {
-      "id": 2,
-      "query": "分析 Notion 的商业模式",
-      "should_trigger": true
-    },
-    {
-      "id": 3,
       "query": "给我的 idea 做个体检",
       "should_trigger": true
     },
     {
-      "id": 4,
-      "query": "帮我拆解这个独立开发者是怎么起来的",
+      "id": 2,
+      "query": "这个项目还要不要继续做",
       "should_trigger": true
     },
     {
-      "id": 5,
-      "query": "analyze this indie hacker for me",
-      "should_trigger": true
-    },
-    {
-      "id": 6,
-      "query": "我这个项目还要不要继续做，体检下",
-      "should_trigger": true
-    },
-    {
-      "id": 7,
-      "query": "用五要素拆一下 Midjourney",
-      "should_trigger": true
-    },
-    {
-      "id": 8,
-      "query": "对标拆解一下我的产品和竞品",
-      "should_trigger": true
-    },
-    {
-      "id": 9,
+      "id": 3,
       "query": "health-check my saas idea",
       "should_trigger": true
     },
     {
+      "id": 4,
+      "query": "帮我理性体检一下这个生意",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "should I keep building this",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "我这个副业值不值得继续投入",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "给我的项目做个商业体检",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "帮我判断该不该停掉这个产品",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "用检查表过一遍我的 idea",
+      "should_trigger": true
+    },
+    {
       "id": 10,
-      "query": "这个产品为什么能赚钱，拆给我看",
+      "query": "我的产品是该转向还是该坚持",
       "should_trigger": true
     },
     {
       "id": 11,
-      "query": "分析这段代码的时间复杂度",
+      "query": "拆解一下 levelsio 的路径",
       "should_trigger": false
     },
     {
       "id": 12,
-      "query": "拆解这道数学题",
+      "query": "分析 Notion 的商业模式",
       "should_trigger": false
     },
     {
       "id": 13,
-      "query": "帮我分析这份日志",
-      "should_trigger": false
-    },
-    {
-      "id": 14,
-      "query": "竞品的定价是多少",
-      "should_trigger": false
-    },
-    {
-      "id": 15,
-      "query": "帮我写产品落地页文案",
-      "should_trigger": false
-    },
-    {
-      "id": 16,
       "query": "帮我找个细分市场",
       "should_trigger": false
     },
     {
+      "id": 14,
+      "query": "营销没效果怎么办",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "年度体检报告怎么看",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "帮我做个健康打卡功能",
+      "should_trigger": false
+    },
+    {
       "id": 17,
-      "query": "营销一直没效果怎么办",
+      "query": "检查一下这段代码有没有 bug",
       "should_trigger": false
     },
     {
       "id": 18,
-      "query": "分析用户流失数据表",
+      "query": "review 这个 PR",
       "should_trigger": false
     },
     {
       "id": 19,
-      "query": "把这个大函数拆开重构",
+      "query": "公司员工体检怎么安排",
       "should_trigger": false
     },
     {
       "id": 20,
-      "query": "商业保险怎么选",
+      "query": "拆解竞品的定价策略",
       "should_trigger": false
     }
   ]

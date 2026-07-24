@@ -1,0 +1,106 @@
+{
+  "skill_name": "opc-analysis",
+  "type": "trigger",
+  "cases": [
+    {
+      "id": 1,
+      "query": "拆解一下 levelsio 的路径",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "分析 Notion 的商业模式",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "帮我拆解 Danny Postma 的打法",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "帮我拆解这个独立开发者是怎么起来的",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "analyze this indie hacker for me",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "这个 SaaS 是怎么赚钱的，拆给我看",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "用五要素拆一下 Midjourney",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "对标拆解一下我的产品和竞品",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "deconstruct how this indie product makes money",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "这个产品为什么能赚钱，拆给我看",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "分析这段代码的时间复杂度",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "拆解这道数学题",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "帮我分析这份日志",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "竞品的定价是多少",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "帮我写产品落地页文案",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "帮我找个细分市场",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "营销一直没效果怎么办",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "分析用户流失数据表",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "把这个大函数拆开重构",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "给我自己的项目做个体检",
+      "should_trigger": false
+    }
+  ]
+}

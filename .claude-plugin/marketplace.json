@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "opcstack",
-      "description": "完整技能栈：路由入口 + 商业拆解 + 细分市场发现 + 营销诊断，一次装齐",
+      "description": "完整技能栈：路由入口 + 商业拆解 + 商业体检 + 细分市场发现 + 营销诊断，一次装齐",
       "source": "./",
       "strict": false,
       "version": "0.0.1"
@@ -27,13 +27,23 @@
       ]
     },
     {
-      "name": "opc-analyze",
-      "description": "商业拆解三模式：标杆人物、标杆产品、自家项目体检",
+      "name": "opc-analysis",
+      "description": "商业拆解两模式：标杆人物、标杆产品",
       "source": "./",
       "strict": false,
       "version": "0.0.1",
       "skills": [
-        "./skills/opc-analyze"
+        "./skills/opc-analysis"
+      ]
+    },
+    {
+      "name": "opc-checkup",
+      "description": "商业体检：现金流 Razor + 三检查表 + 寿命定价 + 单元经济与致命依赖",
+      "source": "./",
+      "strict": false,
+      "version": "0.0.1",
+      "skills": [
+        "./skills/opc-checkup"
       ]
     },
     {
@@ -48,7 +58,7 @@
     },
     {
       "name": "opc-marketing",
-      "description": "营销诊断：定位增长瓶颈，路由到对的专项打法",
+      "description": "营销诊断：定位增长瓶颈，给出该环的人性底层理论",
       "source": "./",
       "strict": false,
       "version": "0.0.1",
