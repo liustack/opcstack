@@ -21,4 +21,5 @@ scripts/           # Validation and release utilities
 - `opc` is the router entry point: it reads context and routes to the right `opc-*` skill, mirroring liustack's `ls` router.
 - Validate with `bash scripts/check-skills.sh` before committing skill changes.
 - License is CC BY-NC 4.0 (see LICENSE.md) — non-commercial use is free, commercial use requires a separate license. Do not add MIT-licensed-looking headers.
+- Skill `description` fields must be lean and keyword-first: harnesses inject every installed skill's description into context, so the opening clause must carry the trigger keywords.
 - Working drafts go in `.issues/<YYYY-MM-DD-topic>/` (gitignored), organized by task, not by type.
