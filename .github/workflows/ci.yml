@@ -26,3 +26,5 @@ jobs:
         run: bash scripts/check-skills.sh
       - name: Contract check
         run: bash scripts/check-contract.sh
+      - name: Style check
+        run: bash scripts/check-style.sh
