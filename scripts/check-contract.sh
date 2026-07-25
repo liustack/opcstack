@@ -31,6 +31,11 @@ for m in manifests:
 codex = json.load(open('.codex-plugin/plugin.json'))
 versions['.codex-plugin/plugin.json'] = codex['version']
 
+meta_desc = json.load(open('.claude-plugin/marketplace.json'))['metadata']['description']
+short = codex['interface']['shortDescription']
+if short not in meta_desc:
+    fail.append(f'.codex-plugin/plugin.json: shortDescription drifted from marketplace metadata description: {short!r}')
+
 if len(set(versions.values())) > 1:
     fail.append('version mismatch: ' + json.dumps(versions, indent=2))
 
