@@ -16,6 +16,7 @@ BANNED = ['助产', '接生', '曳光弹']
 targets = sorted(
     set(glob.glob('skills/**/*.md', recursive=True))
     | set(glob.glob('rules/*.md'))
+    | set(glob.glob('docs/*.md'))
     | set(glob.glob('README*.md'))
 )
 

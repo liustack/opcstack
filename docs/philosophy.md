@@ -1,37 +1,45 @@
-# opcstack 设计哲学
+---
+summary: 'opcstack design philosophy: twin foundations, business lifespan as a pricing parameter, niche as a position of power, inversion-native red flags, no fabrication, frameworks as lenses'
+read_when:
+  - Designing or revising any opc skill
+---
 
-opc-* 技能的内核原则。设计或修订任何技能前先读本文，与本文冲突的设计不合格。
+# opcstack design philosophy
 
-## 1. 双根基
+[中文](./philosophy.zh-CN.md)
 
-- **商业五要素**（分析透镜）：人性与需求 / 价值与成本 / 结构与权力 / 时间与复利 / 风险与反脆弱——管「商业怎么看」。
-- **心智格栅的商业应用**（商业哲学）：决策分层、认知偏差防火墙、元认知——管「商业决策怎么做、怎么防自欺」。
+Core principles for the opc-* skills. Read this before designing or revising any skill. A design that conflicts with this document is not acceptable.
 
-每个技能设计须显式接线两条根基（如：红海测试＝偏差防火墙排社会认同/幸存者偏差，评分卡＝决策层外化）。**接骨标准**：每个技能须能指出自己的步骤落在认知/决策/行动哪一层、在哪一步跑了哪些偏差防火墙。指不出的设计不完整。
+## 1. Twin foundations
 
-## 2. 生意寿命是定价参数，不是道德判断
+- **The five factors of business** (the analytical lens): human nature and demand / value and cost / structure and power / time and compounding / risk and antifragility — they govern how a business is seen.
+- **The mental lattice applied to business** (the business philosophy): layered decisions, the cognitive-bias firewall, metacognition — they govern how business decisions are made and how self-deception gets caught.
 
-合法合规的短窗套利（信息差、窗口性机会）是真生意，真赚钱就不是烂生意。百年企业是大愿景，短窗生意是一人公司的现实主流。评估四问：
+Every skill must wire itself to both foundations explicitly (the red-sea test = the bias firewall screening social proof and survivorship bias, the scorecard = the decision layer externalized). **The wiring standard**: every skill must be able to say which of cognition, decision, or action its steps sit in, and which bias firewalls run at which step. A design that can't is incomplete.
 
-1. 窗口多长（相对回本周期的倍数）？
-2. 期内回报覆盖投入几倍？
-3. 窗口误判或关闭时，退出成本多少？
-4. 结束时能带走什么可迁移资产（技能/代码/内容/关系/认知）？
+## 2. Business lifespan is a pricing parameter, not a moral judgment
 
-复利是加分项，不是及格线。短窗套利型与长线复利型是两种资产类别，各配各的风控：前者防退出拖延与窗口误判，后者防错误投资。
+Legal short-window arbitrage — information gaps, windowed opportunities — is real business, and if it truly makes money it is not a bad business. Century companies are a grand vision. Short-window businesses are the realistic mainstream for one-person companies. Four evaluation questions:
 
-## 3. 生态位即权力位
+1. How long is the window, as a multiple of the payback period?
+2. How many times over does in-window return cover the investment?
+3. If the window is misjudged or closes, what does exit cost?
+4. What portable assets remain at the end — skills, code, content, relationships, knowledge?
 
-niche 的本名是生态位——不只是「细分市场」，更是权力结构里的位置。评估的终点问题：掌握哪个卡口（分发节点、用户关系终端），还是只是一块随时可被替换的电池。
+Compounding is a bonus, not a pass line. Short-window arbitrage and long-line compounding are two asset classes, each with its own risk control: the former guards against exit procrastination and window misjudgment, the latter against bad investment.
 
-## 4. 红旗表与避坑清单是逆向思维的原生产物
+## 3. A niche is a position of power
 
-写技能时显式跑一遍「这个技能的使用者会怎么翻车」，产出红旗/反例节。这是基石反哺技能的第二条通道（第一条是透镜出题）。
+"Niche" originally names an ecological position — not merely a market segment but a position in a power structure. The terminal question of any evaluation: do you hold a chokepoint (a distribution node, the terminal of the user relationship), or are you a battery that can be swapped out at any time?
 
-## 5. 防编造
+## 4. Red-flag tables and pitfall lists are native products of inversion
 
-外部事实（搜索量、竞争度、融资、收入）未核实必须标注「未核实」，数量级估算（「大概几万」）也算编造。**专名同属须核实事实**：人名、书名、产品名、署名关系（谁写的、谁编的）凭记忆写就是编造的温床，引用前核实。**不带数字的定性断言同属外部事实**：「成熟市场」「常见类目」「渗透充分」这类说法和具体数字一样需要核实或标注——数字容易被警觉，定性词更容易溜过去。营销型内容站的数据标注来源性质。
+When writing a skill, explicitly run "how will users of this skill crash" and produce the red-flag and counterexample sections. This is the second channel through which the foundations feed the skills — the first is lens-generated questions.
 
-## 6. 框架是透镜，不是真理
+## 5. No fabrication
 
-商业是复杂适应系统，任何框架都有盲区。结论用概率语气。现金流 Razor 永远优先：去掉叙事光环，这个生意靠真实现金流能不能活。
+Unverified external facts (search volume, competition, funding, revenue) must be labeled unverified, and order-of-magnitude guesses ("tens of thousands, roughly") count as fabrication. **Proper names are external facts too**: person names, book titles, product names, and attribution (who wrote it, who edited it) written from memory are a breeding ground for fabrication — verify before citing. **Qualitative claims without numbers are external facts too**: "mature market", "common category", "well penetrated" need verification or labeling just like numbers do — numbers raise alarms, qualitative words slip past. For marketing-driven content sites, label the nature of the source.
+
+## 6. Frameworks are lenses, not truth
+
+Business is a complex adaptive system and every framework has blind spots. State conclusions in probabilistic language. The cash-flow razor always comes first: strip the narrative halo — can this business live on real cash flow?
