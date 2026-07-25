@@ -43,7 +43,7 @@ description: 营销诊断与人性底层理论：用 AARRR 定位增长瓶颈在
 
 ## 第四步：理论回填与输出
 
-按瓶颈环完整读 `references/foundations.md` 对应节（含通用底座「影响力三层协议」——大多数「营销没效果」的底层原因是没做 L1 读取就直接 L3 写入的自嗨）。
+按瓶颈环完整读 `references/foundations.md` 对应节（含通用底座「影响力三层协议」：先读懂对方在想什么、要什么，才轮到你说什么——大多数「营销没效果」的病根是没读对方就自顾自输出卖点）。
 
 诊断输出落盘到工作区草稿目录 `.issues/<YYYY-MM-DD-主题>/marketing.md`——「量级上来后复查下游某环」的提示要有处可回。落盘前先确保草稿目录被忽略：`git check-ignore .issues` 不通过时，把 `.issues/` 追加进 `.git/info/exclude`（本地忽略，不动共享 `.gitignore`）并告知用户一句。非 git 环境无提交风险，直接写。输出格式：
 
