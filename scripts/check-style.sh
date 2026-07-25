@@ -11,7 +11,7 @@ export LC_ALL=C.UTF-8 2>/dev/null || export LC_ALL=en_US.UTF-8
 python3 - <<'EOF'
 import glob, re, sys
 
-BANNED = ['助产', '接生', '曳光弹', '爆炸半径', '接骨']
+BANNED = ['助产', '接生', '曳光弹', '爆炸半径', '接骨', '立案', '回填']
 
 targets = sorted(
     set(glob.glob('skills/**/*.md', recursive=True))
