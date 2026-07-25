@@ -1,157 +1,157 @@
-# 三张检查表 + 评估 SOP
+# Three checklists and the evaluation SOP
 
-本文件收录三张检查表，check 模式按顺序跑完三张表再输出结论。
+This document holds three checklists. Check mode runs all three, in order, before producing a conclusion.
 
-## 商业逻辑检查表（理性侧）
+## The business-logic checklist (the rational side)
 
-本表基于 5 个商业要素构建，用于分析一个商业模式的合理性，适用于「商业想法/现有项目/产品/人物分析」。
+This checklist is built on the 5 business factors, used to analyze whether a business model is sound. Applies to a business idea, an existing project, a product, or a person's analysis.
 
-### 人性与需求
+### Human nature and demand
 
-- 用户是谁？
-- 主要「不安/JTBD 的 JOB」是什么？
-- 他们现在用什么方案凑合？
+- Who is the user?
+- What is the main uneasiness, or JTBD job?
+- What do they currently use to make do?
 
-### 价值与成本
+### Value and cost
 
-- 收入结构（单价×频次×用户数）粗估？
-- 成本结构（人力/流量/固定开支）？
-- 单位经济大致情况（LTV 用毛利口径、CAC、是否达到 LTV:CAC ≥ 3:1 的安全边际、毛利感受）？
+- Rough revenue structure (price × frequency × number of users)?
+- Cost structure (labor / traffic / fixed overhead)?
+- The rough state of unit economics (LTV on a gross-margin basis, CAC, whether it reaches the LTV:CAC ≥ 3:1 safety margin, a gut sense of gross margin)?
 
-### 结构与权力
+### Structure and power
 
-- 价值链位置（上游/中游/下游/平台）？
-- 关键依赖对象（平台/供应商/头部客户）？
-- 手里有什么别人难以复制的东西？
+- Position in the value chain (upstream / midstream / downstream / platform)?
+- Key dependencies (platform / suppliers / top clients)?
+- What do you hold that others would find hard to replicate?
 
-> 执行提示：若对象是个人/无外部资方的小项目，本节答案大概率恒为「没有议价权」，可快速带过——快速带过＝每条仍看一眼并记一句结论，跳过不看＝违规。
+> Execution note: if the subject is an individual, or a small project with no outside investors, the answer to this section is very likely always "no bargaining power," and can be moved through quickly. Moving through quickly means still looking at every item and noting one line of conclusion. Skipping it without looking is a violation.
 
-### 时间与复利
+### Time and compounding
 
-- 目前在沉淀的资产（内容/代码/品牌/数据/关系）？
-- 模式是「一次性」还是「订阅/复购/延展」？
-- 3 年后最理想形态大致是什么？
+- What assets are currently being accumulated (content / code / brand / data / relationships)?
+- Is the model "one-time," or "subscription / repeat purchase / expansion"?
+- Roughly what does the ideal form look like 3 years out?
 
-### 风险与反脆弱
+### Risk and antifragility
 
-- 最大的单点风险？
-- 最坏情况会死成什么样？
-- 有没有「小步试错、低成本验证」的空间？
+- What is the biggest single point of risk?
+- What does dying look like in the worst case?
+- Is there room for small-step trial and error, low-cost validation?
 
-## 商业叙事检查表
+## The business-narrative checklist
 
-本表用于判断一个商业叙事（故事）的合理性，适用于「商业想法/现有项目/标杆产品或人物分析」。
+This checklist is used to judge whether a business narrative (a story) is sound. Applies to a business idea, an existing project, or the analysis of a benchmark product or person.
 
-### 清晰度（Clarity）
+### Clarity
 
-这个项目讲的是什么故事？能用「一句话」复述且让外行听懂吗？（越简单，传播力越强）
+What story does this project tell? Can it be repeated in one sentence that a layperson would understand? (The simpler it is, the more it spreads.)
 
-### 愿景承诺（Promise）
+### Promise
 
-这个故事承诺了什么「更好的自己」（如：用了显瘦）或「更好的世界」（如：去中心化自由）？
+What "better self" (for example: slimmer after using it) or "better world" (for example: decentralized freedom) does this story promise?
 
-### 行动成本（Cost）
+### Cost
 
-这个叙事是否鼓励参与者承担他们无法理解/无法承受的风险？它有没有要求相信者做出高成本、难逆转的行动？（高成本行动=强共识，低成本=凑热闹）
+Does this narrative encourage participants to take on risk they can't understand or can't afford? Does it ask believers to take high-cost, hard-to-reverse action? (High-cost action signals real conviction. Low-cost action just signals jumping on a bandwagon.)
 
-### 证伪后果（Fragility）
+### Fragility
 
-是否把「少数极端成功」包装成「人人可达」？故事一旦被证明是假的，受害的是谁？是创始人，还是最后接盘的散户？
+Does it dress up a few extreme successes as achievable by everyone? Once the story is proven false, who gets hurt: the founder, or the retail investors left holding the bag?
 
-### 现实约束（Reality Check）
+### Reality check
 
-这个故事与物理/经济/制度约束是否明显冲突？（如果故事说「永动机」，物理学说「不」，那故事必死）（警惕「吹哨人」也是「割韭菜人」）
+Does this story obviously conflict with physical, economic, or institutional constraints? (If the story claims a perpetual-motion machine and physics says no, the story is dead on arrival.) (Watch out: the "whistleblower" can also be the one fleecing you.)
 
-### 动机分析（Incentive）
+### Incentive
 
-谁在制造这个叙事？他们现在离场能赚多少？（警惕"吹哨人"也是"割韭菜人"）
+Who is manufacturing this narrative, and how much can they make by exiting now? (Watch out: the "whistleblower" can also be the one fleecing you.)
 
-> 执行提示：若对象是个人自筹、无外部资金推手的小项目，本节答案大概率恒为「没有」，可快速带过——快速带过＝每条仍看一眼并记一句结论，跳过不看＝违规。
+> Execution note: if the subject is a self-funded individual project with no outside capital pushing it, the answer to this section is very likely always "none," and can be moved through quickly. Moving through quickly means still looking at every item and noting one line of conclusion. Skipping it without looking is a violation.
 
-### 价值底座（Value Floor）
+### Value floor
 
-如果这个叙事光环（Hype）逐步退潮，项目还能靠解决真实问题的价值（Cash Flow）活着吗？
+If this narrative's hype gradually fades, can the project still survive on the value (cash flow) of solving a real problem?
 
-## 能力圈 & 资源约束检查表
+## The capability-and-resource-constraint checklist
 
-本表用于一个生意的执行者（本表中的"我"），是否具备能力和资源去开展这个生意。
+This checklist is for the person executing the business (referred to as "I" throughout): whether they have the capability and the resources to run it.
 
-### 能力圈位置
+### Position within your circle of competence
 
-- 这个行业/技术/用户群，在「我」的能力圈里是：核心区/边缘区/盲区？
-- 如果是边缘区或盲区，「我」有没有现实可行的「3–6 个月补课计划」？
+- Is this industry, technology, or user group inside "my" circle of competence: the core, the edge, or a blind spot?
+- If it's the edge or a blind spot, does "I" have a realistic, workable 3-6 month catch-up plan?
 
-### 执行能力
+### Execution capability
 
-- 3–6 个月内，「我」能做出验证关键假设的 MVP 吗？
-- 需要哪些具体技能和时间投入？现在有多少是缺的？
+- Within 3-6 months, can "I" build an MVP that validates the key assumption?
+- What specific skills and time investment does it require? How much of that is currently missing?
 
-### 关键资源
+### Key resources
 
-- 启动和维持这个项目的关键资源是什么？（钱/人/关系/平台/设备……）
-- 这些资源里，「我」现在已经控制多少？剩下的需要谁才能拿到？
+- What are the key resources needed to start and sustain this project? (Money / people / relationships / a platform / equipment...)
+- Of these resources, how much does "I" already control? Who would it take to get the rest?
 
-### 机会成本
+### Opportunity cost
 
-- 为了做这个项目，「我」必须砍掉哪些现有项目/机会？
-- 换算成时间/金钱/精力，机会成本是否可接受？
+- To do this project, which existing projects or opportunities does "I" have to cut?
+- Converted into time, money, and energy, is the opportunity cost acceptable?
 
-### 心理 & 生活约束
+### Psychological and life constraints
 
-- 这个项目的压力曲线和生活状态是否匹配？（例如家庭、健康、精力）
-- 最坏情况下，「我」的生活会被拖垮到什么程度？
+- Does this project's pressure curve match your life situation? (For example, family, health, energy.)
+- In the worst case, how badly would "I"'s life be dragged down?
 
-## 商业模式评估 SOP
+## The business-model evaluation SOP
 
-用于对商业逻辑做「理性体检」。
+Used to give business logic a rational checkup.
 
-- **Step1：** 跑「商业逻辑检查表」。
-- **Step2：** 跑「商业叙事检查表」。
-- **Step3：** 跑「能力圈 & 资源约束检查表」。
-- **Step4：** 输出决策结论。
+- **Step 1:** run the business-logic checklist.
+- **Step 2:** run the business-narrative checklist.
+- **Step 3:** run the capability-and-resource-constraint checklist.
+- **Step 4:** output the decision conclusion.
 
 ---
 
-## 补课书单（按体检薄弱项开方用）
+## Catch-up reading list (prescribe based on what the checkup exposes)
 
-体检暴露哪个要素薄弱，就从对应节挑书。不求读全，求补最短的板。
+Whichever factor the checkup exposes as weak, pick books from the matching section. Don't aim to read everything. Aim to patch the shortest board.
 
-### 人性与需求
-- *Human Action*（Ludwig von Mises）——主观价值与「行动」起点。
-- *Wanting*（Luke Burgis，理论源头 René Girard）——理解社会比较与跟风。
-- *Narrative Economics*（Robert J. Shiller）——故事如何左右行为与价格。
-- *Positioning*（Al Ries & Jack Trout）——占领用户心智的方式。
-- *Influence*（Robert B. Cialdini）——说服、人性弱点与社会认同。
-- *Thinking, Fast and Slow*（Daniel Kahneman）——系统 1/系统 2 与决策偏差。
-- *Predictably Irrational*（Dan Ariely）——非理性行为样本库。
+### Human nature and demand
+- *Human Action* (Ludwig von Mises): the starting point of subjective value and "action."
+- *Wanting* (Luke Burgis, drawing on René Girard): understanding social comparison and imitation.
+- *Narrative Economics* (Robert J. Shiller): how stories shape behavior and prices.
+- *Positioning* (Al Ries & Jack Trout): how to occupy a user's mind.
+- *Influence* (Robert B. Cialdini): persuasion, human weaknesses, and social proof.
+- *Thinking, Fast and Slow* (Daniel Kahneman): System 1 / System 2 and decision bias.
+- *Predictably Irrational* (Dan Ariely): a catalog of irrational behavior.
 
-### 价值与成本（含单元经济步）
-- *Scale*（Geoffrey West）——规模效应的物理直觉。
-- *Business Model Generation*（Alexander Osterwalder & Yves Pigneur）——画清收益与成本结构。
-- *Value Proposition Design*（Osterwalder & Pigneur 等）——价值主张与愿付价格。
-- *The Business Model Navigator*（Oliver Gassmann 等）——55 种生意数学组合。
-- 《一本读懂财报》（肖星，中文原创，无英文版）或任一本财务报表分析书——看得懂利润表/现金流。
-- *How an Economy Grows and Why It Crashes*（Peter D. Schiff & Andrew J. Schiff）——供需、价格与资源分配的直观讲解。
-- *Zero to One*（Peter Thiel with Blake Masters）——理解垄断与幂次法则。
+### Value and cost (including the unit-economics step)
+- *Scale* (Geoffrey West): a physical intuition for economies of scale.
+- *Business Model Generation* (Alexander Osterwalder & Yves Pigneur): mapping out the revenue and cost structure.
+- *Value Proposition Design* (Osterwalder & Pigneur, et al.): value propositions and willingness to pay.
+- *The Business Model Navigator* (Oliver Gassmann, et al.): 55 combinations of business math.
+- 《一本读懂财报》(Xiao Xing, Chinese-language original, no English edition), or any book on financial-statement analysis: enough to make sense of an income statement or cash flow.
+- *How an Economy Grows and Why It Crashes* (Peter D. Schiff & Andrew J. Schiff): an intuitive walkthrough of supply, demand, price, and resource allocation.
+- *Zero to One* (Peter Thiel with Blake Masters): understanding monopoly and the power law.
 
-### 结构与权力
-- *Principles of Microeconomics*（N. Gregory Mankiw）——供需、边际、市场结构。
-- *Competitive Strategy*（Michael E. Porter）——行业结构与五力分析。
-- *The Innovator's Dilemma*（Clayton M. Christensen）与 *The Innovator's Solution*（Christensen & Michael E. Raynor）——颠覆式创新与 incumbents 的困境。
-- *Platform Revolution*（Parker、Van Alstyne & Choudary）——双边市场与平台规则。
-- *7 Powers*（Hamilton Helmer）——现代科技企业的护城河圣经。
-- *The Outsiders*（William N. Thorndike Jr.）——学习顶级的资本配置。
+### Structure and power
+- *Principles of Microeconomics* (N. Gregory Mankiw): supply, demand, margins, and market structure.
+- *Competitive Strategy* (Michael E. Porter): industry structure and the Five Forces.
+- *The Innovator's Dilemma* (Clayton M. Christensen) and *The Innovator's Solution* (Christensen & Michael E. Raynor): disruptive innovation and the incumbent's dilemma.
+- *Platform Revolution* (Parker, Van Alstyne & Choudary): two-sided markets and platform rules.
+- *7 Powers* (Hamilton Helmer): the definitive guide to modern tech-company moats.
+- *The Outsiders* (William N. Thorndike Jr.): learning from top-tier capital allocation.
 
-### 时间与复利（含寿命分型步）
-- *Built to Last*（Jim Collins & Jerry I. Porras）与 *Good to Great*（Jim Collins）——飞轮与长期主义。
-- *Mastering the Market Cycle*（Howard Marks）——识别繁荣与萧条，短窗/长线判型的宏观依据。
-- *The Snowball*（Alice Schroeder，授权传记）或 *The Essays of Warren Buffett*（Lawrence A. Cunningham 编）——复利与时间朋友。
-- *Hacking Growth*（Sean Ellis & Morgan Brown）——数据驱动的飞轮与迭代。
-- *Poor Charlie's Almanack*（Charles T. Munger 述，Peter D. Kaufman 编）——复利与多学科思维。
+### Time and compounding (including the lifespan-typing step)
+- *Built to Last* (Jim Collins & Jerry I. Porras) and *Good to Great* (Jim Collins): flywheels and long-termism.
+- *Mastering the Market Cycle* (Howard Marks): recognizing booms and busts, the macro basis for typing short-window vs. long-line.
+- *The Snowball* (Alice Schroeder, authorized biography) or *The Essays of Warren Buffett* (edited by Lawrence A. Cunningham): compounding, and time as a friend.
+- *Hacking Growth* (Sean Ellis & Morgan Brown): data-driven flywheels and iteration.
+- *Poor Charlie's Almanack* (Charles T. Munger, edited by Peter D. Kaufman): compounding and multidisciplinary thinking.
 
-### 风险与反脆弱（含 SPOF 与最小验证步）
-- *Antifragile* 与 *The Black Swan*（Nassim Nicholas Taleb）——不确定性与杠铃思维。
-- *Fooled by Randomness*（Nassim Nicholas Taleb）——识别运气与噪音。
-- *The Lean Startup*（Eric Ries）——小赌验证，大错之前止损，最小验证计划的方法论出处。
-- *The Almanack of Naval Ravikant*（Eric Jorgenson 编）——杠杆、可选性与「玩长局」。
-- *Skin in the Game*（Nassim Nicholas Taleb）——利益攸关（Skin in the Game）。
+### Risk and antifragility (including SPOF and the minimum-validation step)
+- *Antifragile* and *The Black Swan* (Nassim Nicholas Taleb): uncertainty and barbell thinking.
+- *Fooled by Randomness* (Nassim Nicholas Taleb): telling luck apart from noise.
+- *The Lean Startup* (Eric Ries): validating with small bets, cutting losses before the big mistake, the methodological source for a minimum-validation plan.
+- *The Almanack of Naval Ravikant* (edited by Eric Jorgenson): leverage, optionality, and playing long games.
+- *Skin in the Game* (Nassim Nicholas Taleb): understanding skin in the game.

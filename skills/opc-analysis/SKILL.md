@@ -3,65 +3,65 @@ name: opc-analysis
 description: 商业拆解：标杆人物拆解（levelsio、Marc Lou 等）与标杆产品拆解，基于五要素框架（人性/价值/结构/时间/风险）+ SOP。Business deconstruction of role-model founders and benchmark products using the five-factor framework. Use when the user wants to 拆解某个人物或产品 / 分析商业模式 / analyze this indie hacker or product. Do not trigger for health-checking your own idea（自家项目体检是 opc-checkup）.
 ---
 
-## 何时用与模式选择
+## When to use it and how to choose a mode
 
-本技能有两种模式，先看拆解对象是什么，再确认模式，最后开工。不要跳过确认步骤直接分析。
+This skill has two modes. Look at what you're deconstructing first, settle on a mode, then start work. Don't skip the confirmation step and jump straight into analysis.
 
-- 对象是**一个人**（创业者、研究者、产品经理、投资人、KOL 等，如 Pieter Levels、Marc Lou、Sam Altman）→ **person 模式**
-- 对象是**一个产品**（如 ChatGPT、Midjourney、Notion AI、Cursor 这类单个产品或单一产品线）→ **product 模式**
-- 对象是**自己的 idea / 现有项目**要做体检 → 不归本技能，用 **opc-checkup**
-- **拿别人产品对标自己**（如"帮我对比一下我的项目和 Notion AI"）→ 先对标对象跑 **product 模式**拆对方，再用 opc-checkup 体检自己的项目，最后手动整合两组结论产出对比
+- The subject is **a person** (a founder, researcher, product manager, investor, KOL, and so on, e.g., Pieter Levels, Marc Lou, Sam Altman) → **person mode**
+- The subject is **a product** (a single product or product line such as ChatGPT, Midjourney, Notion AI, or Cursor) → **product mode**
+- The subject is **your own idea or existing project** and needs a health check → out of scope for this skill, use **opc-checkup**
+- **Benchmarking someone else's product against your own** (e.g., "compare my project with Notion AI") → run **product mode** on the benchmark target first, then use opc-checkup to check your own project, then manually merge the two sets of conclusions into a comparison
 
-拿到任务后，先向用户确认两件事：拆解对象具体是谁/是什么，以及两种模式里选哪一种。确认清楚再开始执行对应模式的步骤。
+Once you have the task, confirm two things with the user first: exactly who or what the subject is, and which of the two modes to use. Only start the steps for the chosen mode once both are clear.
 
-## 共同底座：五要素
+## Shared foundation: the five factors
 
-三种模式都建立在同一套五要素框架上，完整展开见 `references/framework.md`。速查：
+All three modes rest on the same five-factor framework. See `references/framework.md` for the full version. Quick reference:
 
-| 要素 | 核心问句 |
+| Factor | Core question |
 |---|---|
-| 人性与需求 | 人为什么掏钱？（恐惧、贪婪、装逼、省事、归属感？） |
-| 价值与成本 | 你的价值是否远大于成本？能否规模化？ |
-| 结构与权力 | 谁掌握议价权？规则是谁定的？ |
-| 时间与复利 | 生意的生态存在期多长？窗口长度、期内回报、退出成本、结束时可带走什么？复利是加分项不是及格线 |
-| 风险与反脆弱 | 哪里有单点依赖？波动来了是死还是更强？ |
+| Human nature and demand | Why do people pay? (Fear, greed, vanity, convenience, belonging?) |
+| Value and cost | Is your value far greater than your cost? Can it scale? |
+| Structure and power | Who holds the bargaining power? Who sets the rules? |
+| Time and compounding | How long does the business survive, ecologically speaking? Window length, in-window return, exit cost, what's left to take when it ends? Compounding is a bonus, not a pass line |
+| Risk and antifragility | Where are the single points of failure? Does volatility kill it, or make it stronger? |
 
-需要更细的关键问题清单、关键词表、关键书目时，读 `references/framework.md`。
+For a finer-grained list of key questions, keyword tables, and reading lists, read `references/framework.md`.
 
-## person 模式
+## person mode
 
-拆解一个人及其事业系统，而不是单一产品。核心对象是「一个人的事业系统」，要看时间线、产品组合、能力/资源谱系和叙事路径，偏「轨迹与策略」。
+Deconstruct a person and the venture system they've built, not a single product. The core subject is "one person's venture system." Look at the timeline, the product portfolio, the range of capabilities and resources, and the narrative arc, leaning toward "trajectory and strategy."
 
-概述七步：
+Seven steps in brief:
 
-1. 人物卡片（姓名/身份标签/所在时代地理背景/一句话总结/代表产品列表）
-2. 时间线（五阶段：起点 → 第一波成就/失败 → 转折与定位 → 标志性阶段 → 当前状态）
-3. 产品组合（表格视图 + 现金牛/跳板/纯实验分类）
-4. 五要素看事业系统（用五要素拆解「这个人 + 他建立的系统」，而不是拆某个单品）
-5. 叙事与自我定位（对外主叙事、对内叙事、媒体构造的形象、叙事如何换资源和容错空间）
-6. 能力资源谱系
-7. 跑一遍偏差防火墙 → 可迁移结论（幸存者对照、光环、叙事、结果偏差四查过后，才输出哪些值得抄、哪些是运气、接下来 1–2 个月抄哪个具体动作）
+1. Person card (name / identity tags / era and geographic context / one-line summary / list of flagship products)
+2. Timeline (five stages: starting point → first wave of achievement or failure → turning point and positioning → landmark stage → current state)
+3. Product portfolio (a table view plus cash-cow / springboard / pure-experiment classification)
+4. The five factors applied to the venture system (deconstruct "this person plus the system they built" with the five factors, not a single product)
+5. Narrative and self-positioning (the external main narrative, the internal narrative, the media-constructed image, how the narrative gets traded for resources and room for error)
+6. Capability and resource range
+7. Run the bias firewall, then draw transferable conclusions: only after four checks (survivorship comparison, the halo effect, narrative, and outcome bias) do you get to output what's worth copying, what's just luck, and which specific action to copy over the next 1-2 months
 
-执行时完整读 `references/mode-person.md`，按里面的模板和问题清单逐步产出。
+For execution, read `references/mode-person.md` in full and work through it step by step using its templates and question lists.
 
-## product 模式
+## product mode
 
-拆解一个具体产品的商业结构，用「3 过程 × 5 商业要素」把它拆透，得到清晰的商业图谱和可迁移经验，偏「模型解析」而非写故事传记。
+Deconstruct the business structure of a specific product using "3 processes × 5 business factors" to take it fully apart, arriving at a clear business map and transferable lessons, leaning toward "model analysis" rather than writing a narrative biography.
 
-概述六步：
+Six steps in brief:
 
-1. 产品卡片（产品名/链接/公司团队/上线时间/面向人群/一句话描述/当前状态）
-2. 核心视角速写（价值创造/价值交付/价值捕获三过程速写）
-3. 商业逻辑检查（用五要素拆解，跑商业叙事检查表）
-4. 叙事/机制/演化（对用户和投资人讲的故事、博弈与机制设计、创新与演化路径）
-5. 跑一遍偏差防火墙（幸存者对照、光环、叙事、结果偏差）
-6. 可迁移结论（五问：各要素最值得学的一点、可迁移的结构性经验、路径依赖不必模仿的部分、必须避坑的错误、复制到其他细分市场怎么实验）
+1. Product card (product name / link / company and team / launch date / target audience / one-line description / current state)
+2. Core-lens sketch (a quick sketch of the three processes: value creation / value delivery / value capture)
+3. Business-logic check (deconstruct with the five factors, run the business-narrative checklist)
+4. Narrative, mechanism, and evolution (the story told to users and investors, game dynamics and mechanism design, the path of innovation and evolution)
+5. Run the bias firewall (survivorship comparison, the halo effect, narrative, outcome bias)
+6. Transferable conclusions (five questions: the single most worth-learning point for each factor, transferable structural lessons, the path-dependent parts not worth imitating, mistakes that must be avoided, how to experiment when porting this to another niche)
 
-执行时完整读 `references/mode-product.md`，按里面的模板和问题清单逐步产出。
+For execution, read `references/mode-product.md` in full and work through it step by step using its templates and question lists.
 
-## 硬规则
+## Hard rules
 
-- **框架是分析透镜，不是商业真理**：五要素/检查表/SOP 能帮你把问题问全，但商业是复杂适应性系统，穷尽商业之道不可能，任何框架都有盲区和例外。输出结论时用「大概率/倾向于/需进一步验证」这类概率语气，避免「一定/必然」式的确定性断言。
-- **现金流 Razor 永远优先**：无论叙事多强，先问一句——如果去掉叙事光环，这个项目靠真实现金流能不能活下去。市场不是由原子组成的，而是由「人的信念」组成的，但叙事再强不是真理，估值和溢价终究要落回现金流的价值底座。
-- **区分可迁移的结构性经验和路径依赖的运气**。同一个成功故事里，哪部分是「结构性经验」（如何选赛道、如何叠产品、如何控制风险，可以严肃学习吸收），哪部分是「路径依赖+运气/时代红利」（出生国家、赶上的独特时代窗口、极难复制的人脉，看完就好、没必要模仿也无法模仿），必须分开说清楚，不要把运气包装成方法论。
-- **需要外部事实时联网检索，而不是凭记忆编造**。人物履历、产品数据、财务细节、时间节点等具体事实，没有把握时应联网核实，不确定的地方要明确标注「未核实」，不要编造。
+- **A framework is an analytical lens, not business truth**: the five factors, checklists, and SOPs can help you ask the full range of questions, but business is a complex adaptive system, there's no exhausting the way business works, and every framework has blind spots and exceptions. State conclusions in probabilistic language: "likely," "tends to," "needs further verification." Avoid certainty-flavored claims like "definitely" or "inevitably."
+- **The cash-flow razor always comes first**: however strong the narrative, ask one question first: strip away the narrative halo, can this project survive on real cash flow? The market isn't made of atoms, it's made of "human belief." But no matter how strong a narrative is, it isn't truth. Valuation and premium always trace back down to the value floor of cash flow.
+- **Separate transferable structural lessons from path-dependent luck**. Within the same success story, spell out which part is "structural experience" (how the niche was chosen, how products were stacked, how risk was managed, worth studying and absorbing seriously) and which part is "path dependence plus luck, a dividend of the era" (the country someone was born in, a unique window in time they happened to catch, connections nearly impossible to replicate, worth a look and nothing more, not worth imitating and not possible to imitate). Keep the two apart, and don't dress luck up as methodology.
+- **When you need external facts, search the web instead of making them up from memory.** For concrete facts such as a person's track record, product data, financial details, and timelines, verify online whenever you're not sure, and flag anything uncertain as "unverified" instead of fabricating it.

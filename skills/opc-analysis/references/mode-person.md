@@ -1,173 +1,173 @@
-# person 模式完整流程
+# Person mode in full
 
-本文件是 person 模式的完整执行流程，按 Step 0-7 依次产出。
+This document is the full execution workflow for person mode, produced in order, Step 0 through Step 7.
 
-本流程不是写「故事/传记」，而是抽出可迁移的商业逻辑。
+This workflow is not about writing a "story" or a "biography." It's about extracting transferable business logic.
 
-核心对象是「一个人的事业系统」——比单品拆解多出时间线、产品组合、能力/资源谱系和叙事路径，偏「轨迹与策略」。
+The core subject is "a person's career system." Compared to deconstructing a single product, it adds a timeline, a product portfolio, a capability/resource lineage, and a narrative arc, leaning toward "trajectory and strategy."
 
-**目标：** 分析一个人及其事业系统，不是单一产品。一个人可以做多个产品、有多次转型，故事维度更重，需要加入时间线与能力/资源谱系。
+**Goal:** analyze a person and their career system, not a single product. One person can build multiple products and go through multiple pivots, so the narrative dimension carries more weight, and a timeline plus a capability/resource lineage need to be added.
 
-**适用对象：** 任何「一人事业系统」——创业者、独立开发者、创作者、研究者、投资人，如 Pieter Levels、Marc Lou、Sam Altman。
+**Applies to:** any "one-person career system" (founders, indie developers, creators, researchers, investors), for example Pieter Levels, Marc Lou, Sam Altman.
 
-**外部数据源冲突处理：** 联网核实事实时，不同来源常给出打架的数字（如同一产品的 ARR，不同报道相差数倍）。优先采信本人一手公开数据（building-in-public 的推文、仪表盘截图、官方声明），其次才是二手报道。多源仍冲突时，标注区间或注明「未核实/来源不一致」，不要挑一个数字当确定值。
+**Handling conflicting external sources:** when verifying facts online, different sources often give conflicting numbers (the same product's ARR can differ several-fold across reports). Prefer the person's own first-hand public data (building-in-public tweets, dashboard screenshots, official statements) over secondhand reporting. When multiple sources still conflict, note a range or mark it "unverified / sources disagree" rather than picking one number as the settled value.
 
-## Step 0：建立人物卡片
-
-```
-【人物卡片】
-
-- 姓名 / ID：
-- 主要身份标签：创业者 / 研究者 / 产品经理 / 投资人 / KOL …
-- 所在时代 / 地理背景：
-- 一句话总结：他/她的「代表性成就」是什么？
-- 代表产品/项目列表（最多 5 个）：
-```
-
-## Step 1：时间线视角（人生 & 事业关键节点）
+## Step 0: build the person card
 
 ```
-【时间轴 - 粗线条】
+[Person card]
 
-- 阶段 1：起点
-  - 家庭/教育背景：
-  - 早期兴趣 & 技能：
-
-- 阶段 2：第一波成就 / 失败
-  - 重要项目/公司/研究：
-  - 成败及关键教训：
-
-- 阶段 3：转折 & 定位
-  - 进入当前赛道的关键事件：
-  - 转型动机（推/拉力）：
-
-- 阶段 4：标志性阶段
-  - 代表产品/公司/成果：
-  - 在行业中的角色变化（边缘→中心？）
-
-- 阶段 5：当前状态
-  - 当下主要精力放在哪几件事上？
-  - 对未来公开表达的方向/野心？
+- Name / ID:
+- Primary identity tags: founder / researcher / product manager / investor / KOL...
+- Era / geographic background:
+- One-line summary: what is their "signature achievement"?
+- Representative products/projects (up to 5):
 ```
 
-「时间 & 风险」维度，只不过对象是人。
+## Step 1: the timeline view (key life and career milestones)
 
-## Step 2：产品/项目组合视图（Portfolio）
+```
+[Timeline — broad strokes]
 
-【产品/项目组合表】（示例结构）
+- Stage 1: origin
+  - Family/education background:
+  - Early interests and skills:
 
-| 项目/产品 | 时间区间 | 在事业里的角色 | 粗略商业模式 | 当前状态 |
+- Stage 2: first wave of achievement or failure
+  - Major project/company/research:
+  - Success, failure, and key lessons:
+
+- Stage 3: turning point and positioning
+  - The key event that led into the current track:
+  - Motivation for the pivot (push/pull factors):
+
+- Stage 4: the signature stage
+  - Representative product/company/outcome:
+  - How their role in the industry changed (periphery to center?)
+
+- Stage 5: current state
+  - Which few things is their energy mainly going into right now?
+  - What direction or ambition have they stated publicly for the future?
+```
+
+This is the "time and risk" dimension, just applied to a person instead.
+
+## Step 2: the product/project portfolio view
+
+[Product/project portfolio table] (example structure)
+
+| Project/product | Time range | Role in the career | Rough business model | Current status |
 |---|---|---|---|---|
-| - | - | 核心/实验/转型跳板 | SaaS/平台/咨询/媒体 | 进行中/退出/失败 |
+| - | - | Core / experiment / pivot springboard | SaaS / platform / consulting / media | In progress / exited / failed |
 
-此表按当前时点分类——同一产品的角色会随时间迁移（如早期的「跳板/实验」后来长成「现金牛」），如观察到明显迁移，在备注里写清「从 X 演变为 Y」。
+This table classifies by the current point in time: a given product's role can migrate over time (an early "springboard/experiment" that later grows into a "cash cow"). If you observe a clear migration, note it explicitly as "evolved from X to Y."
 
-- 哪些项目是「现金牛」？
-- 哪些是「跳板」？（带来声望/人脉/经验，但未必赚钱）
-- 哪些是纯实验，用来学习或验证方向？
+- Which projects are "cash cows"?
+- Which are "springboards" (bringing reputation, connections, or experience, but not necessarily money)?
+- Which are pure experiments, used to learn or validate a direction?
 
-## Step 3：用 5 个商业要素看「整个人的事业系统」
+## Step 3: view "this person's entire career system" through the five factors
 
-不是对某个产品，而是对「这个人 + 他建立的系统」。
+Not aimed at a single product, but at "this person plus the system they've built."
 
-### 人性与需求（他反复抓的那条线）
+### Human nature and demand (the thread they keep pulling on)
 
-- 他长期服务的是哪一类人？（开发者/创业者/大众消费者/企业）
-- 他反复抓的几个核心人性/不安是什么？
-- 比如「自由」「成就感」「效率」「权力」「安全感」？
-- 他自己的性格/人性，对这条主线有怎样的强化或偏见？
+- What kind of people have they served, over the long run? (Developers / founders / mass consumers / enterprises.)
+- What few core human-nature drivers or forms of uneasiness do they keep returning to?
+- For example: "freedom," "a sense of achievement," "efficiency," "power," "a sense of security"?
+- How does their own personality or human nature reinforce, or bias, this throughline?
 
-### 价值与成本（他的「赚钱结构」）
+### Value and cost (their "money-making structure")
 
-【价值与成本 - 人物视角】
+[Value and cost: person lens]
 
-- 他主要靠什么赚钱？
-  - 产品收入 / 股权增值 / 薪水 / 投资回报 / IP 授权 / 讲课 / 咨询？
-- 收入结构是分散的还是高度集中？
-  - 一个大头 + 若干小项？还是多个均衡来源？
-- 他做决策时，更偏向：
-  - 高风险高回报 / 低风险慢增长 / 先保底再上杠杆？
+- What do they mainly make money from?
+  - Product revenue / equity appreciation / salary / investment returns / IP licensing / teaching / consulting?
+- Is the revenue structure diversified or highly concentrated?
+  - One dominant source plus several minor ones? Or several balanced sources?
+- When making decisions, do they lean toward:
+  - High risk, high return / low risk, slow growth / secure the floor first, then add leverage?
 
-### 结构与权力（他在系统中的位置）
+### Structure and power (their position within the system)
 
-【结构与权力 - 人物视角】
+[Structure and power: person lens]
 
-- 他在所处生态中的角色：
-  - 架构师？布道者？平台掌舵者？资本分配者？工具匠？
-- 他控制哪些「结构性资源」？
-  - 公司控制权？平台话语权？学术资源？政策话语权？媒体渠道？
-- 他跟上游/下游/同行的权力关系如何？
-  - 谁对他有实质性约束？他又能约束谁？
+- Their role within the ecosystem they operate in:
+  - Architect? Evangelist? Platform steward? Capital allocator? Toolsmith?
+- Which "structural resources" do they control?
+  - Control of a company? A voice on a platform? Academic resources? A voice in policy? Media channels?
+- What do their power relationships with upstream, downstream, and peers look like?
+  - Who has real leverage over them? And whom can they, in turn, constrain?
 
-### 时间与复利（怎样滚起自己的飞轮）
+### Time and compounding (how they get their own flywheel turning)
 
-- 他长期在积累什么资产？
-  - 能力（skill stack）、人脉网络、品牌、资本、数据、组织……
-- 从时间线看，他有没有形成某种「路径依赖」？
-  - 比如一直靠某类组织/平台/资本在放大自己？
-- 哪些选择明显是「为未来铺路」，而不是为了当年那点钱？
+- What assets have they been accumulating over the long run?
+  - Capabilities (a skill stack), a network of connections, brand, capital, data, organization...
+- Looking at the timeline, have they developed a form of "path dependency"?
+  - For example, do they keep relying on a certain type of organization, platform, or capital to amplify themselves?
+- Which choices clearly "pave the way for the future," rather than chasing that year's money?
 
-### 风险与反脆弱（他的下注和防守）
+### Risk and antifragility (their bets and their defenses)
 
-- 他曾经经历过哪些重大失误/危机？
-  - 公司破产、项目失败、被解雇、舆论风暴……
-- 他处理风险的偏好是什么？
-  - 喜欢 All in？喜欢多项目对冲？喜欢站在规则边缘试探？
-- 整体结构是：
-  - 脆弱：一处出事就全盘崩？
-  - 韧性：可承受多次失败但不致命？
-  - 反脆弱：每次波动反而让他位置更牢？
+- What major mistakes or crises have they gone through?
+  - Company bankruptcy, project failure, being fired, a media storm...
+- What is their risk preference?
+  - Do they like going all in? Hedging across multiple projects? Testing the edge of the rules?
+- Is the overall structure:
+  - Fragile: one incident and the whole thing collapses?
+  - Resilient: able to absorb repeated failures without dying?
+  - Antifragile: does each bout of volatility actually make their position more secure?
 
-## Step 4：叙事与自我定位
+## Step 4: narrative and self-positioning
 
-- 他对外讲的主叙事是什么？
-  - 比如「普通人也能一人公司」「AI 使人人都是创作者」……
-- 他对内（自己/团队）讲的叙事是什么？（如果可见）
-- 媒体和大众帮他构造了怎样的「形象」？
-- 这套叙事是如何帮助他：
-  - 获得资源（资本/人才/合作）？
-  - 获得宽容（犯错空间）？
+- What is the main narrative they tell externally?
+  - For example, "anyone can run a one-person company," "AI makes everyone a creator"...
+- What narrative do they tell internally (to themselves or their team), if visible?
+- What "image" have the media and the public built for them?
+- How does this narrative help them:
+  - Gain resources (capital / talent / partnerships)?
+  - Gain leniency (room to make mistakes)?
 
-## Step 5：能力 & 资源谱系
+## Step 5: capability and resource lineage
 
-- 基础能力：
-  - 技术：写代码/算法/工程？
-  - 产品：洞察需求/设计体验？
-  - 叙事：写作/演讲/媒体沟通？
-  - 商业：谈判/定价/投融资？
-  - 组织：搭团队/用人/激励？
+- Base capabilities:
+  - Technical: writing code, algorithms, engineering?
+  - Product: sensing needs, designing experience?
+  - Narrative: writing, speaking, media communication?
+  - Business: negotiation, pricing, fundraising?
+  - Organizational: building a team, hiring, motivating?
 
-- 组合方式：
-  - 他靠哪几项能力的「组合拳」吃饭？
-  - 这些能力中，有哪些是明显高于同龄人的？
+- How they combine:
+  - Which "combo" of capabilities do they live off?
+  - Which of these capabilities are clearly above their peers?
 
-- 初始资源：
-  - 家庭、教育、地理、早期工作平台……
+- Starting resources:
+  - Family, education, geography, early work platforms...
 
-- 获得的关键资源节点：
-  - 进入某公司/机构、认识某人、拿到某项目/资金/平台位……
+- Key resource nodes they gained access to:
+  - Joining a certain company or institution, meeting a certain person, landing a certain project, funding, or platform position...
 
-- 能力 + 资源如何一起塑造了他的「结构位置」？
+- How did capability and resource combine to shape their "structural position"?
 
-## Step 6：跑一遍偏差防火墙
+## Step 6: run the bias firewall
 
-拆解成功者天然带四种偏差，逐条过完才允许进 Step 7：
+Deconstructing a successful person naturally carries four biases. Work through every one before moving on to Step 7:
 
-- **幸存者偏差**：同赛道死掉的人是谁？他们是否也做过前文归纳的「正确动作」？找不到失败对照，对应结论降级为「未证实的相关性」。
-- **光环效应**：把他最失败的一个项目单独拿出来复盘——同一个人同一套能力，为什么那次不灵？
-- **叙事偏差**：本人的公开叙事（推文、访谈、build in public 内容）是营销物料不是史料，关键事实找第三方来源交叉。
-- **结果偏差**：每条候选「结构性经验」反问——如果结果失败了，这个决策当时还算对吗？算，才是真经验。
+- **Survivorship bias**: who died on the same track? Did they also take the "correct actions" identified above? If you can't find a failure counterpart, downgrade the corresponding conclusion to "an unverified correlation."
+- **Halo effect**: pull out their single most failed project and review it on its own. Same person, same set of capabilities, so why didn't it work that time?
+- **Narrative bias**: the person's public narrative (tweets, interviews, build-in-public content) is marketing material, not historical record. Cross-check key facts against third-party sources.
+- **Outcome bias**: for every candidate "structural lesson," ask the reverse question. If the outcome had failed, would this decision still have been the right one at the time? Only if it would is this a genuine lesson.
 
-## Step 7：可迁移结论
+## Step 7: transferable conclusions
 
-- 从他的「能力谱系」里，有哪 2–3 个能力组合，你可以视为长期要构建的方向？
-- 从他的「资源路径」里，有哪 2–3 个节点说明：
-  - 某类平台/组织/圈子在这个时代极重要？
-  - 某些路径是你不打算走的（价值观/风险不匹配）？
-- 他的故事中，哪些部分是「结构性经验」，可以迁移到你的一人公司/AI 项目？
-  - 比如：如何选择赛道、如何叠产品、如何控制风险……
-- 哪些部分是「路径依赖 + 运气」，你看完就好，没必要模仿？
-  - 比如：出生国家、赶上的独特时代窗口、极难复制的人脉……
-- 在接下来的 1–2 个月里，你会从他身上抄哪一个「具体动作」来做实验？
-  - 行动：
-  - 对应的五要素维度（人性与需求/价值与成本/结构与权力/时间与复利/风险与反脆弱中的哪一块）：
+- From their "capability lineage," which 2-3 capability combinations can you treat as a direction worth building toward over the long run?
+- From their "resource path," which 2-3 nodes suggest:
+  - That a certain kind of platform, organization, or circle is critical in this era?
+  - That certain paths are ones you don't intend to take (a mismatch in values or risk)?
+- In their story, which parts are "structural lessons" that can transfer to your one-person company or AI project?
+  - For example: how to choose a track, how to stack products, how to control risk...
+- Which parts are "path dependency plus luck," worth noting but not worth imitating?
+  - For example: the country they were born in, a unique era-window they caught, connections that are nearly impossible to replicate...
+- Over the next 1-2 months, which single "concrete action" will you copy from them to run as an experiment?
+  - Action:
+  - The corresponding five-factor dimension (which of human nature and demand / value and cost / structure and power / time and compounding / risk and antifragility):

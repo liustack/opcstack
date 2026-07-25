@@ -1,32 +1,32 @@
 ---
 name: opc-checkup
-description: 商业体检：给自己的 idea 或在营项目做理性体检——现金流 Razor、三张检查表、生意寿命定价、单元经济与致命依赖排查，输出分型结论。Business health check for your own idea or running project. Use when the user wants to 给 idea 做体检 / 这个项目还要不要做 / 该不该继续或停掉 / health-check my idea / should I keep building this. Do not trigger for deconstructing other people's products or founders（那是 opc-analysis 的事）.
+description: 商业体检：给自己的 idea 或在营项目做理性体检，现金流 Razor、三张检查表、生意寿命定价、单元经济与致命依赖排查，输出分型结论。Business health check for your own idea or running project. Use when the user wants to 给 idea 做体检 / 这个项目还要不要做 / 该不该继续或停掉 / health-check my idea / should I keep building this. Do not trigger for deconstructing other people's products or founders（那是 opc-analysis 的事）.
 ---
 
-# opc-checkup：商业体检
+# opc-checkup: business health check
 
-对象只有一个：**你自己的 idea 或在营项目**。拆解别人的标杆是 opc-analysis 的事，本技能是对自己动刀——决定做不做、继续不继续、怎么调。
+There's only one subject: **your own idea or running project**. Deconstructing someone else's benchmark is opc-analysis's job. This skill turns the knife on yourself, to decide whether to build it, keep going, or change course.
 
-**立场纪律**：对自己的项目最要防确认偏误。体检以对抗式立场进行——任务是找出让它死的理由，找不出才算通过，不是替它辩护。
+**Stance discipline**: confirmation bias is the biggest risk when it's your own project. Run the checkup adversarially: the job is to find the reasons it should die, and it only passes if you can't find any. You're not its defense attorney.
 
-## 体检七步
+## The seven-step checkup
 
-七步的脊柱：1–2 先把事实查清，3–5 再做判断，6 反查自己的偏差，7 落到行动与验证。
+The spine of the seven steps: 1-2 nail down the facts first, 3-5 make the judgment calls, 6 checks your own bias, 7 lands on action and verification.
 
-1. **现金流 Razor 先行**：去掉叙事光环，这个生意靠真实现金流能不能活、或能不能指出一条算得清的活路？一句话作答，答案决定后面严查哪里。
-2. **三张检查表**（完整表见 `references/checks.md`）：商业逻辑检查表（五要素逐条）→ 商业叙事检查表（七维）→ 能力圈&资源约束检查表（五节）。逐条走完，不跳表。
-3. **生意寿命定价与分型**：这是短窗套利型还是长线复利型？四问定价：窗口多长（相对回本周期的倍数）？期内回报几倍？窗口误判或关闭时退出成本多少？结束时能带走什么可迁移资产？复利是加分项不是及格线，短窗不减分——但两型各查各的风控：套利型查退出纪律与窗口误判，复利型查错误投资（账面繁忙却无资产沉淀）。
-4. **单元经济速算**：LTV > CAC + COC 成立吗？粗算三张账（获客/履约/固定）。LTV < CAC 是死亡螺旋，规模越大死得越快。负单元经济只有「范式转移期 + 强叙事资本 + 拐点可指认」三条件齐备才享早期豁免权，缺一即红旗。判据锚点：范式转移期＝所在品类的成本或能力曲线正在发生数量级变化且你在受益侧。强叙事资本＝已有融资、显著媒体报道或有量级的候补名单，三者无一即不算。拐点可指认＝能说出具体的事件、日期与数字路径，「快了」不算。
-5. **致命依赖与反脆弱**：SPOF 排查——谁一撤梯子我就死（单一平台/大客户/上游接口/关键人）？真实最坏情况发生时能撑多久？有没有杠铃结构（大部分资产安全区 + 小部分高波动实验）？这次失败了能带走什么（技能/代码/内容/关系/认知）？
-6. **结论前的偏差防火墙自检**：体检者对自己的项目天然带偏，逐条过——**沉没成本**（把已投入归零重问：今天从零开始，我还会做它吗？「已经投入 N 个月」永远不是继续的理由）。**禀赋效应**（把项目名换成陌生人的项目，三张表的分数还打得一样吗？）。**计划谬误**（把回本周期与成本估算 ×2，单元经济还成立吗？）。**确认偏误**（回顾本轮体检：有没有至少一次改判？一次都没有，大概率是在走过场）。
-7. **不确定性消除计划**：把体检发现的最大不确定项设计成最小验证（构建→衡量→学习一轮）。MVP 是消除不确定性的工具，不是半成品的借口。输出「下一轮要证伪什么、怎么证伪、花多少成本」。
+1. **Cash-flow razor first**: strip the narrative halo, then ask: can this business survive on real cash flow, or can you point to a clear path where the numbers work? Answer in one line, and let that answer decide where to dig hardest next.
+2. **Three checklists** (full tables in `references/checks.md`): the business-logic checklist (the five factors, one by one) → the business-narrative checklist (seven dimensions) → the capability-circle and resource-constraint checklist (five sections). Work through every item, don't skip a table.
+3. **Business lifespan pricing and typing**: is this a short-window arbitrage play or a long-line compounding play? Four pricing questions: how long is the window (as a multiple of the payback period)? How many times over does the in-window return pay back? What does exit cost if the window is misjudged or closes? What transferable assets remain at the end? Compounding is a bonus, not a pass line, and a short window is no mark against you. But each type carries its own risk control: arbitrage types get checked for exit discipline and window misjudgment, compounding types get checked for bad investment (busy on paper with no asset accumulation).
+4. **Quick unit-economics math**: does LTV > CAC + COC hold? Rough out three ledgers (acquisition / fulfillment / fixed costs). LTV < CAC is a death spiral: the bigger the scale, the faster the death. Negative unit economics only earns an early exemption when all three conditions are met together: "paradigm-shift window + strong narrative capital + a nameable inflection point." Miss even one and it's a red flag. Anchor definitions: a paradigm-shift window means the cost or capability curve of the category is moving by an order of magnitude and you're on the side that benefits. Strong narrative capital means funding already raised, significant media coverage, or a waitlist with real scale. None of the three present means it doesn't count. A nameable inflection point means you can name the specific event, date, and number path. "It's coming soon" doesn't count.
+5. **Fatal dependencies and antifragility**: SPOF check: who could pull the ladder out and kill you (a single platform, a major customer, an upstream API, a key person)? How long could you last if the real worst case hit? Is there a barbell structure (most assets in a safe zone plus a small slice of high-volatility experiments)? If this failed, what would be left to take with you (skills, code, content, relationships, insight)?
+6. **Bias-firewall self-check before concluding**: whoever runs the checkup is naturally biased toward their own project, so go through every item: **sunk cost** (zero out what's already been invested and ask again: starting from zero today, would I still build this? "I've already put in N months" is never a reason to keep going on its own). **Endowment effect** (swap the project's name for a stranger's project: would the three checklists still score the same?). **Planning fallacy** (double the payback period and cost estimates: does the unit economics still hold?). **Confirmation bias** (look back at this checkup: did you reverse at least one earlier judgment? If not even once, you were probably going through the motions).
+7. **An uncertainty-elimination plan**: turn the biggest uncertainty the checkup surfaced into a minimal validation (one build → measure → learn loop). An MVP is a tool for eliminating uncertainty, not an excuse for shipping something unfinished. Output "what to falsify next round, how to falsify it, and what it will cost."
 
-## 输出
+## Output
 
-体检报告落盘到工作区草稿目录 `.issues/<YYYY-MM-DD-主题>/checkup.md`——最小验证计划与复查提示要有处可回。落盘前先确保草稿目录被忽略：`git check-ignore .issues` 不通过时，把 `.issues/` 追加进 `.git/info/exclude`（本地忽略，不动共享 `.gitignore`）并告知用户一句。非 git 环境无提交风险，直接写。报告结构：现金流 Razor 判语 / 三表逐节结论（红黄绿标注——红＝该项单独就足以否定继续，黄＝存疑待验证且必须附「转绿需要什么证据」，绿＝有证据支撑。黄不是避险阀）/ 寿命分型与对应风控 / 单元经济判定 / SPOF 清单 / **结论四态：继续（套利型附退出纪律，复利型附资产沉淀计划）、调整后继续（列明改什么）、转向（能力圈资产带去哪）、停止（止损与可带走清单）** / 防火墙自检记录（哪条差点骗过你）/ 最小验证计划（**结论为停止时**，验证计划限定为止损前的最后证伪闸门——绑定硬截止、与止损准备并行，不得作为延缓止损的理由）/ **补课书方**——针对体检暴露的最薄弱的一两个要素开 1–2 本并说明为什么。多项皆薄弱时按根因优先：先分清哪个要素是根因、哪些只是它的下游症状，症状项不开书。不开全书单，只补最短的板。
+Save the checkup report to the workspace draft directory `.issues/<YYYY-MM-DD-topic>/checkup.md`. The minimal validation plan and the recheck reminder both need somewhere to land. Before saving, make sure the draft directory is git-ignored: if `git check-ignore .issues` fails, append `.issues/` to `.git/info/exclude` (a local ignore, leave the shared `.gitignore` alone) and give the user a one-line heads-up. In a non-git environment there's no commit risk, so just write it directly. Report structure: the cash-flow razor verdict / conclusions for each of the three tables, section by section (marked red/yellow/green: red means this item alone is enough to rule out continuing, yellow means it's in doubt and needs verification and must come with "what evidence would turn it green," and green means it's backed by evidence. Yellow is not a safety valve.) / lifespan typing and its matching risk controls / the unit-economics verdict / the SPOF list / **four possible conclusions: continue (arbitrage types attach exit discipline, compounding types attach an asset-accumulation plan), continue with changes (spell out what changes), pivot (where the capability-circle assets go), or stop (loss-cutting steps and what's portable)** / the bias-firewall self-check record (which one nearly fooled you) / the minimal validation plan (**when the conclusion is stop**, the validation plan is limited to a final falsification gate before cutting losses: tied to a hard deadline, run in parallel with loss-cutting prep, and never used as an excuse to delay cutting losses) / **a reading prescription**: for the one or two weakest factors the checkup exposed, prescribe 1-2 books and explain why. When several items are weak, prioritize by root cause: first work out which factor is the root cause and which are just its downstream symptoms, and don't prescribe books for the symptoms. Don't hand out a full reading list, just patch the shortest plank.
 
-## 硬规则
+## Hard rules
 
-- 外部事实（市场数据、竞品、成本）未核实必须标注，数量级估算也算编造。
-- 框架是透镜不是真理，结论用概率语气。
-- 与相邻技能的边界：方向本身存疑（还没选定做什么）→ 先用 opc-niche 验证方向再回来体检。要拆解的是别人的产品或人物 → opc-analysis。
+- Unverified external facts (market data, competitors, costs) must be flagged, and order-of-magnitude estimates count as fabrication too.
+- A framework is a lens, not truth. State conclusions in probabilistic language.
+- Boundaries with neighboring skills: if the direction itself is still in doubt (what to build hasn't been chosen yet) → validate the direction with opc-niche first, then come back for a checkup. If what needs deconstructing is someone else's product or person → opc-analysis.

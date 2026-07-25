@@ -1,34 +1,34 @@
-# niche 评估的底层理论
+# Theory behind niche scoring
 
-评分卡各维打分时的理论依据。分数是主观量表，但支撑分数的问题必须问到位。
+The theoretical basis for scoring each dimension of the scorecard. The score itself is a subjective scale, but the questions behind the score have to be asked properly.
 
-## 需求判读：伪需求的两大来源
+## Reading demand: the two main sources of false demand
 
-- **模仿欲望**：人的欲望是模仿来的。社区里的「大家都想要 X」可能是少数榜样带起的模仿波，不是独立需求——判读时问：这个痛点是各自独立撞上的，还是跟风表达的？独立多源 = 真需求，单一源头扩散 = 存疑。
-- **价值主观性**：价值在「消除不安的紧迫度」里，不在功能里。同一功能对不同人群价格天差地别（沙漠里的矿泉水）——niche 的价值上限由目标人群的不安强度决定，不由功能复杂度决定。
-- **认知缺陷做付费判读**：损失厌恶（已在用胶水方案凑合的人，最怕失去现有流程——迁移成本是你的敌人也是护城河）、现状偏好（懒于改变——「够痛才会动」是付费意愿的门槛线）。
+- **Mimetic desire**: human desire is imitated. An "everyone wants X" inside a community can be a wave of imitation started by a few role models, not independent demand. When reading it, ask: did this pain point hit people independently, or is it just people echoing a trend? Independent, multi-source demand is real. A single source spreading outward is suspect.
+- **Value subjectivity**: value lives in how urgently "uneasiness" gets removed, not in the feature itself. The same feature is priced wildly differently for different groups (a bottle of water in the desert): a niche's ceiling on value is set by the target group's intensity of uneasiness, not by the complexity of the feature.
+- **Using cognitive flaws to read willingness to pay**: loss aversion (people already making do with a duct-tape solution fear losing their current process the most: switching cost is both your enemy and your moat), status quo bias (people are too lazy to change: "only real pain moves them" is the threshold for willingness to pay).
 
-## 竞争度维：波特五力速查
+## The competition dimension: a Porter's Five Forces quick check
 
-工具分数（KD 等）只是初筛，结构判断用五力：
+Tool scores (KD, etc.) are only a first pass. Use the Five Forces for structural judgment:
 
-1. **现有竞争者**：几家？小老丑还是有融资巨头？
-2. **潜在进入者**：门槛多高？你能进说明别人也能进——你进入后靠什么挡住下一个你？
-3. **替代品**：用户现在拿什么凑合（表格+人肉也是替代品）？替代品多的行业天生苦生意。
-4. **供应商议价力**：你依赖的上游（模型 API、平台、数据源）能不能随时涨价卡你？
-5. **买方议价力**：客户集中吗？前三个客户占营收大头 = 他们说了算。
+1. **Existing competitors**: how many? Small and scrappy, or well-funded giants?
+2. **Potential entrants**: how high is the barrier? If you can get in, so can someone else. Once you're in, what stops the next you?
+3. **Substitutes**: what are users making do with right now (a spreadsheet plus manual labor counts as a substitute too)? An industry with abundant substitutes is, by nature, a hard way to make a living.
+4. **Supplier bargaining power**: can the upstream you depend on (a model API, a platform, a data source) raise prices on you whenever it wants?
+5. **Buyer bargaining power**: is the customer base concentrated? If your top three customers account for most of your revenue, they call the shots.
 
-## 变现潜力维：单元经济语言
+## The monetization-potential dimension: the language of unit economics
 
-- 基础式：LTV > CAC + COC。评估 niche 时粗算：这个人群的获客路径值多少钱一个（可低成本触达则 CAC 低）？履约是软件（边际成本趋零）还是服务/AI 推理（当心负规模效应）？
-- 一次性付费 vs 订阅：对一人公司，高维护订阅是持续客服负担，一次性交易 + 低履约是更友好的形态——这不是教条，是 COC 项的现实权重。
+- The base formula: LTV > CAC + COC. When evaluating a niche, do a rough estimate: how much does an acquisition channel cost per person for this group (low-cost reach means low CAC)? Is fulfillment software (marginal cost near zero) or service/AI inference (watch for diseconomies of scale)?
+- One-time payment vs. subscription: for a one-person company, a high-maintenance subscription is an ongoing customer-support burden. A one-time transaction plus low fulfillment is a friendlier shape. This isn't dogma, it's just the real weight of the COC term.
 
-## 护城河判读：网络效应真伪与卡口
+## Reading the moat: real vs. fake network effects, and the chokepoint
 
-- **真伪测试**：用户多真的让每个新用户价值更大吗？还是补贴停了用户就跑？伪网络效应撑不起竞争度高分。
-- **卡口盘点**（生态位控制）：节点（分发权）、终端（用户关系）、还是电池（可替换的功能提供方）？评分通过的 niche 还要答得出「进入后我攒哪一种卡口」。
+- **The real-vs-fake test**: does having more users genuinely make each new user more valuable? Or does the user leave the moment the subsidy stops? A fake network effect can't support a high competition score.
+- **Taking stock of the chokepoint** (ecological-position control): a node (distribution rights), a terminal (the user relationship), or a battery (a replaceable feature provider)? A niche that passes scoring also has to be able to answer "which chokepoint will I accumulate once I'm in."
 
-## 时机与寿命维：周期透镜
+## The timing-and-lifespan dimension: the cycle lens
 
-- 奥派周期之问：这个赛道的繁荣是真实需求爆发，还是信贷/热钱堆出来的资本泡沫？泡沫期入场做短窗套利可以，但要按套利型定价（窗口/回本/退出/带走），别按复利型自我说服。
-- 此透镜只是一个 Lens 不是宇宙真理——与评分卡其他维交叉验证。
+- The Austrian cycle question: is this track's boom a genuine surge in demand, or a capital bubble built up from credit and hot money? Entering during a bubble to run short-window arbitrage is fine, but price it as an arbitrage play (window / payback / exit / portable assets). Don't talk yourself into it as a compounding play.
+- This lens is only a lens, not a universal truth: cross-check it against the scorecard's other dimensions.

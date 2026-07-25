@@ -1,53 +1,53 @@
-# 五环底层理论：营销的人性根基
+# Theory behind the five stages: marketing's human-nature foundations
 
-诊断定位瓶颈环后，读对应节。每节给理论要点与关键问句——理论回答「人为什么会动」，战术（具体文案、投放操作）由此推导，不在此展开。
+Diagnose which stage is the bottleneck, then read the matching section. Each section gives the theoretical core and the key questions: theory answers "why people move," and tactics (specific copy, ad-buying mechanics) are derived from it and are not expanded on here.
 
-## 通用底座：影响力三层协议
+## The universal base: the three-layer protocol of influence
 
-本协议分三层——读取、连接、写入。说服有严格顺序，跳层无效：
+This protocol has three layers: read, connect, write. Persuasion has a strict order, and skipping a layer doesn't work:
 
-- **L1 读取**（理解对方的操作系统）：需求层次诊断——对方的核心驱动力在哪层？别跟担心「工具白花钱」的人大谈「成为更好的自己」。同理心图强制回答：他看到/听到/想什么？痛点和爽点是什么？认知失调解释抗拒：你的新方案与他的旧信念冲突时，他会本能防御。
-- **L2 连接**（获取倾听许可）：利益攸关是信任的黄金标准——「我自己也在用/我的声誉押在这里」远胜任何广告词。展示专业（权威）、找真实共同点（喜好）。
-- **L3 写入**（把意图变成行动）：互惠（先给予）、承诺与一致（先要小承诺）、社会认同（别人都在用）、稀缺（真实的紧迫感）、黄金圈（从 Why 讲起）、故事力（逻辑让人思考，故事让人行动）。
+- **L1 Read** (understand the other person's operating system): diagnose their level of need: which level is their core drive sitting at? Don't preach "becoming a better version of yourself" to someone worried about "wasting money on a tool." An empathy map forces you to answer: what do they see, hear, think? What are their pains and their delights? Cognitive dissonance explains resistance: when your new solution conflicts with their old beliefs, they defend instinctively.
+- **L2 Connect** (earn permission to be heard): skin in the game is the gold standard of trust: "I use it myself" or "my reputation is on the line here" beats any ad copy. Demonstrate expertise (authority), and find genuine common ground (liking).
+- **L3 Write** (turn intent into action): reciprocity (give first), commitment and consistency (ask for a small commitment first), social proof (everyone else is using it), scarcity (real urgency), the golden circle (start from Why), the power of story (logic makes people think, story makes people act).
 
-**顺序纪律：没做 L1 读取就直接 L3 写入，是自嗨式营销——大多数「营销没效果」的底层原因。**
+**Sequencing discipline: going straight to L3 Write without doing L1 Read first is marketing that only talks to itself, the root cause behind most complaints that "marketing isn't working."**
 
-**伦理红线**：识别成瘾机制、稀缺策略是为了理解人性，不是许可造假——伪造稀缺、制造依赖、过度承诺都会反噬（信任崩塌 + 平台/监管打击）。不作恶是风控不是道德装饰。
+**Ethical red line**: identifying addiction mechanisms and scarcity tactics is meant to understand human nature, not to license fabrication: fake scarcity, manufactured dependency, and over-promising all backfire eventually (a collapse of trust plus a platform or regulatory crackdown). Not doing evil is risk control, not moral decoration.
 
-## 获取（Acquisition）
+## Acquisition
 
-- **叙事是有损压缩**：注意力经济里胜出的不是最正确的信息，而是最能抢占叙事高地的信息。你的产品故事能否压缩成一句可自我传播的因果句？
-- **模仿欲望**：人的欲望是模仿来的——用户想要某物往往因为「榜样想要它」。谁是你目标人群的榜样？让榜样先用，比向大众广播便宜得多。
-- **渠道资产归属**：邮件列表、社区、SEO 权重是你的沉淀资产，平台算法流量是租来的。租来的红利渠道可以用（窗口期套利），但要知道自己在租、配退出纪律，持续把注意力和关系往自有资产搬。
-- **Bullseye 19 渠道**（发散用）：病毒营销、公关、非常规公关、SEM、社媒与展示广告、线下广告、SEO、内容营销、邮件营销、工程化营销、垂直博客、商务拓展、销售、联盟计划、现有平台、展会、线下活动、演讲、社区建设。
-- 关键问句：目标人群的注意力现在在哪里？我的叙事一句话讲得清吗？这个渠道攒下的东西归谁？
+- **Narrative is lossy compression**: in the attention economy, what wins isn't the most correct information, it's the information that best seizes the narrative high ground. Can your product story compress into one self-propagating causal sentence?
+- **Mimetic desire**: human desire is imitated: users want something, more often than not, because a role model wants it. Who is your target audience's role model? Getting the role model to use it first is far cheaper than broadcasting to the masses.
+- **Channel-asset ownership**: an email list, a community, and SEO authority are assets you accumulate. Traffic from a platform algorithm is rented. Renting a hot channel is fine (window-period arbitrage), but know that you're renting. Set an exit discipline, and keep moving attention and relationships toward assets you own.
+- **The Bullseye 19 channels** (for divergent brainstorming): viral marketing, PR, unconventional PR, SEM, social and display ads, offline ads, SEO, content marketing, email marketing, engineering as marketing, niche blogs, business development, sales, affiliate programs, existing platforms, trade shows, offline events, speaking, community building.
+- Key questions: where is your target audience's attention right now? Can you tell your narrative clearly in one sentence? Who ends up owning what this channel accumulates?
 
-## 激活（Activation）
+## Activation
 
-- **JTBD**：初次体验的本质是让用户第一次完成他雇你完成的 job——第一次「不安被消除」。aha 时刻 = 状态改变的首次兑现，不是功能引导走完。
-- **认知失调与现状偏好**：新工具与旧习惯冲突，用户会本能防御。降低改变成本（迁移工具、默认值设计、和旧方案并行期）比宣讲新方案优越更有效。
-- **损失厌恶**：失去的痛苦大于得到的快乐——免费试用的机制本质是「先给他，拿走就难受」。
-- 关键问句：用户注册时想完成的那个 job 是什么？首次体验里它被完成了吗？改变的成本被降到多低？
+- **JTBD**: the essence of the first experience is letting the user complete, for the first time, the job they hired you for: the first time their uneasiness gets removed. The aha moment equals the first delivery of a changed state, not finishing a feature walkthrough.
+- **Cognitive dissonance and status quo bias**: a new tool conflicts with an old habit, and users defend instinctively. Lowering the cost of change (migration tools, default-value design, a period running in parallel with the old solution) works better than preaching the new solution's superiority.
+- **Loss aversion**: the pain of losing is greater than the pleasure of gaining: the mechanism behind a free trial is, at bottom, give it to them first, and taking it away hurts.
+- Key questions: what job did the user want completed when they signed up? Was it completed in the first experience? How low was the cost of change brought down?
 
-## 留存（Retention）
+## Retention
 
-- **习惯与现状偏好**：留存的终局是成为默认选项。用户懒于改变——一旦成为工作流的一部分，离开需要理由。
-- **用户资产沉淀**：用户在产品里攒下的东西（数据、配置、历史、关系）就是转移成本。问：用得越久，离开越难吗？
-- **成瘾回路识别**：多巴胺回路能造超级留存，但要过伦理检查——这个产品在解决问题（工具）还是制造依赖（毒品）？识别机制是分析义务，使用机制有红线。
-- **网络效应真伪**：补贴停了用户就跑 = 伪网络效应。真留存经得起停促销的测试。
-- 关键问句：用户第二周回来的理由是什么？他在产品里攒下了什么带不走的东西？
+- **Habit and status quo bias**: the endgame of retention is becoming the default option. Users are too lazy to change: once something becomes part of the workflow, leaving needs a reason.
+- **User-asset accumulation**: what a user accumulates inside a product (data, configuration, history, relationships) is exactly the switching cost. Ask: does staying longer make leaving harder?
+- **Recognizing addiction loops**: a dopamine loop can manufacture superb retention, but it has to pass an ethical check: is this product solving a problem (a tool), or manufacturing dependency (a drug)? Identifying the mechanism is an analytical duty. Using the mechanism has a red line.
+- **Telling real network effects from fake ones**: if users leave the moment the subsidy stops, that's a fake network effect. Real retention survives a test where the promotion is switched off.
+- Key questions: what's the user's reason for coming back in week two? What have they accumulated in the product that they can't take with them?
 
-## 收入（Revenue）
+## Revenue
 
-- **价值主观性**：价值不在功能里，在特定情境下「消除不安」的紧迫度里——同一瓶水在超市和沙漠价格不同。定价定在用户的不安强度上，不是成本加成上。
-- **定价工具箱**：价格歧视（对不同支付意愿定不同价：阶梯版/学生价/限时券）、套餐与档位（不同人群不同打包）、锚定（高价档衬托主力档的「划算」）。
-- **叙事溢价**：品牌 = 产品 + 叙事，用户多付的钱买的是故事里「理想化的自我」。但现金流 Razor 优先：去掉叙事，单元经济（LTV > CAC + COC）成立吗？LTV < CAC 时增长就是死亡螺旋。
-- 关键问句：用户最痛的那一刻愿意付多少？现在的档位设计里谁在补贴谁？
+- **Value subjectivity**: value doesn't live in the feature, it lives in how urgently "uneasiness" is removed in a specific context: the same bottle of water is priced differently in a supermarket and in the desert. Price against the intensity of the user's uneasiness, not on cost-plus.
+- **The pricing toolbox**: price discrimination (different prices for different willingness to pay: tiered plans, student pricing, limited-time coupons), bundles and tiers (different packaging for different groups), anchoring (a high-priced tier that makes the main tier look like a better deal).
+- **Narrative premium**: brand = product + narrative, and what the user pays extra for is the idealized self inside the story. But the cash-flow razor comes first. Strip away the narrative: does the unit economics (LTV > CAC + COC) still hold? When LTV < CAC, growth becomes a death spiral.
+- Key questions: how much would the user pay at their most painful moment? In the current tier design, who is subsidizing whom?
 
-## 推荐（Referral）
+## Referral
 
-- **模仿欲望与身份**：被分享的不是功能，是身份——用户转发的东西替他说「我是什么样的人」。你的产品值得炫耀吗？
-- **社会认同 + 互惠**：推荐机制的双向给予（推荐者与被推荐者都得利）远胜单向抽成。
-- **叙事自传播**：故事简单到一句话能转述，才有口碑的物理条件。
-- **正和博弈**：所有关键参与方都有利可图，推荐才可持续——让用户替你吆喝而他自己吃亏的机制活不过一季。
-- 关键问句：用户复述你的产品时会怎么说（真实转述句测试）？分享的那一刻他得到了什么？
+- **Mimetic desire and identity**: what gets shared isn't the feature, it's identity: what a user forwards speaks on their behalf about what kind of person they are. Is your product worth showing off?
+- **Social proof plus reciprocity**: a referral mechanism with two-way giving (both the referrer and the referred benefit) beats a one-sided commission by a wide margin.
+- **Self-propagating narrative**: a story has to be simple enough to retell in one sentence before word of mouth has the physical conditions to spread.
+- **Positive-sum games**: referral is only sustainable if every key participant has something to gain: a mechanism where the user vouches for you at their own expense doesn't survive a single season.
+- Key questions: what would the user say when retelling your product to someone else (the real-retelling test)? What do they get the moment they share it?

@@ -1,58 +1,58 @@
 ---
 name: opc-launch
-description: 产品发布 playbook：定目标、备叙事资产、蓄水、分批多渠道编排、复发布三式，含发布前阻断式自检。Product launch playbook for indie makers — goals, narrative assets, waitlist, staged multi-channel rollout, relaunch moves, and a hard pre-launch gate. Use when the user wants to 发布产品 / 上线怎么推 / launch on Product Hunt / Show HN 怎么发 / plan my launch. Do not trigger for code deployment or release engineering（部署/发版是工程操作，不归本技能）.
+description: 产品发布 playbook：定目标、备叙事资产、蓄水、分批多渠道编排、复发布三式，含发布前阻断式自检。Product launch playbook for indie makers. Goals, narrative assets, waitlist, staged multi-channel rollout, relaunch moves, and a hard pre-launch gate. Use when the user wants to 发布产品 / 上线怎么推 / launch on Product Hunt / Show HN 怎么发 / plan my launch. Do not trigger for code deployment or release engineering（部署/发版是工程操作，不归本技能）.
 ---
 
-# opc-launch：产品发布 playbook
+# opc-launch: product launch playbook
 
-发布不是一次豪掷，是可重复的分发动作。心态基线取自 Marc Lou 的原话：**「同一个产品可以重新发布一百次，没人记账」**——聚光灯效应的解毒剂：没有人盯着你，所以裸发一次失败毫无成本，不发才有成本。
+A launch isn't a one-shot, all-in bet. It's a repeatable distribution move. The baseline mindset comes from Marc Lou, in his own words: **"the same product can be relaunched a hundred times, nobody's keeping score."** That's the antidote to the spotlight effect: nobody is watching you, so launching bare and failing once costs you nothing. Not launching is what actually costs you.
 
-各渠道的现行规则与红线见 `references/channels.md`（平台规则漂移快，执行前对照官方页面核实）。发布规划落盘到工作区草稿目录 `.issues/<YYYY-MM-DD-主题>/launch.md`——蓄水节奏、分批时间表、复盘都要有处可回。落盘前先确保草稿目录被忽略：`git check-ignore .issues` 不通过时，把 `.issues/` 追加进 `.git/info/exclude`（本地忽略，不动共享 `.gitignore`）并告知用户一句。非 git 环境无提交风险，直接写。
+Current rules and hard limits for each channel are in `references/channels.md` (platform rules drift fast, so verify against the official page before you act). Save the launch plan to the workspace draft directory `.issues/<YYYY-MM-DD-topic>/launch.md`. The waitlist-building cadence, the staged timetable, and the retro all need somewhere to land. Before saving, make sure the draft directory is git-ignored: if `git check-ignore .issues` fails, append `.issues/` to `.git/info/exclude` (a local ignore, leave the shared `.gitignore` alone) and give the user a one-line heads-up. In a non-git environment there's no commit risk, so just write it directly.
 
-## 第一步：定发布目标
+## Step 1: set the launch goal
 
-三选一，决定后面所有分支：
+Pick one of three, and it decides every branch after this:
 
-- **要当日徽章**（Product Hunt 名次）→ 选竞争小的时段（周末票数门槛显著更低），全力冲榜。
-- **要总曝光量** → 选流量高峰日（周中），接受名次可能更低但绝对流量更大。
-- **要练手/学习**（第一次发布默认此档）→ 随时发，目标是攒素材、攒复盘、攒邮件列表，名次无所谓。
+- **Chasing the day's badge** (a Product Hunt ranking) → pick a low-competition window (the vote threshold is noticeably lower on weekends) and push hard for the ranking.
+- **Chasing total exposure** → pick a peak-traffic day (midweek), and accept a possibly lower rank in exchange for more absolute traffic.
+- **Practicing or learning** (the default tier for a first launch) → launch whenever, aim to accumulate assets, retros, and an email list, and don't worry about rank.
 
-时间线撑不起所选目标档时（蓄水期不足、素材没到位），三选一：挪日期、降到练手档、或先软发布再按第二步的复发布三式择日正式发——不硬上，也不放弃。
+When the timeline can't support the chosen goal tier (not enough time to build the waitlist, assets not ready), pick one of three: move the date, drop to the practice tier, or soft-launch first and do a proper launch later on a chosen date using the three relaunch moves from step 2. Don't force it through, and don't give up either.
 
-## 第二步：首发还是复发布
+## Step 2: first launch or relaunch
 
-复发布跑 Marc Lou 三式（产品可以不变）：**Rebrand**（改名换域名，重做 headline——80% 的人不会滚动过首屏标题）、**Reposition**（不改产品改定位与人群，有 0.22% → 1.45% 转化率的实证案例——个案，不保证复现）、**Repurpose**（拆一个功能做免费无注册小工具当获客漏斗）。三式任一即构成一次新发布。注意 Product Hunt 官方要求重发须有「有意义的迭代」——三式产出的新名字/新定位/新工具通常满足，原样重提不满足。
+For a relaunch, run Marc Lou's three moves (the product itself can stay the same): **Rebrand** (a new name and domain, a redone headline: 80% of people never scroll past the above-the-fold title), **Reposition** (keep the product, change the positioning and target audience: there's a documented case of a 0.22% → 1.45% conversion jump, a single case, not a guarantee it repeats), **Repurpose** (strip out one feature as a free, no-signup micro-tool to use as an acquisition funnel). Any one of the three counts as a new launch. Note that Product Hunt's official policy requires a relaunch to show "meaningful iteration." A new name, new positioning, or new tool from the three moves usually clears that bar. Resubmitting as-is doesn't.
 
-## 第三步：叙事资产（含阻断项）
+## Step 3: narrative assets (including a blocking gate)
 
-- **headline 自传播句测试**：一句话讲清「帮谁、以什么方式、完成什么」，简单到别人能原样转述。转述不出来就重写——叙事是有损压缩，压不进一句话的故事传播不动。
-- **素材底线（阻断，全渠道适用）**：demo 视频或够质量的截图，**且**无门槛可试用——两条都要满足，免费注册墙也算墙。这不是 Show HN 专属（它明令不收带墙的 landing page），PH 同样用素材质量投票：同一产品补素材前后 10 票 → 300 票进前三（个案实证，不保证复现）。素材不够格就不发布，先补素材。
-- **计划谬误校正**：素材准备工时与发布日期的估算 ×2。
+- **The headline self-propagation test**: state in one line who it helps, how, and what it accomplishes: simple enough that someone else can repeat it back verbatim. If they can't repeat it back, rewrite it. A narrative is lossy compression, and a story that doesn't compress into one line won't spread on its own.
+- **The asset floor (a blocking gate, applies to every channel)**: a demo video or screenshots good enough to matter, **and** no barrier to trying it. Both conditions must be met, and a free signup wall still counts as a wall. This isn't just a Show HN rule (it explicitly rejects gated landing pages). PH effectively votes on asset quality too: the same product went from 10 votes to 300 and a top-three spot purely by adding better assets (a documented single case, not a guarantee it repeats). If the assets aren't good enough, don't launch yet. Fix the assets first.
+- **A planning-fallacy correction**: double your estimate for asset-prep hours and the launch date.
 
-## 第四步：蓄水
+## Step 4: building the waitlist
 
-- 提前 4–6 周建 waitlist，先到 100 个 signup 再谈发布。
-- **防去磁化**：收了邮箱就消失是常见死法——蓄水期持续发进度更新。
-- 邮件序列三轮：发布前 7 天预告精确时间 → 前 1 天提醒 → 当天多轮（公告/中期战报/收官冲刺）。发布日邮件是所有渠道里转化率最高的。
+- Start the waitlist 4-6 weeks out, and don't talk about launching until you've hit 100 signups.
+- **Guard against demagnetization**: collecting an email and then going quiet is a common way to fail. Keep posting progress updates through the waitlist period.
+- Three rounds of email: 7 days out, announce the exact time. 1 day out, remind them. Launch day, send several rounds (the announcement, a mid-day status update, a final push). The launch-day email converts better than anything on any other channel.
 
-## 第五步：渠道编排
+## Step 5: orchestrating channels
 
-- **分批不轰炸**：BetaList 先行（提前 3–4 周排队）→ Product Hunt 主场 → Fazier/Uneed 等第二波（同周或次周）→ 优质目录站长尾。批量提交上百个低质目录是 busywork 且伤 SEO。
-- **每渠道单独写文案**：各平台自我推广容忍度天差地别（r/SideProject 欢迎直推，r/SaaS 六十天一次还要披露，HN 只收坦诚的可试用作品）。同一套话术套所有平台必翻车，语气分支见 `references/channels.md`。
-- **拉票零容忍（阻断）**：PH 和 HN 均明令禁止索要投票——覆盖朋友、员工、newsletter、社群的一切渠道。能做的是「请去看看、给反馈」。**组织人群同一时段集中访问同样危险**：排名算法保密且关注投票速度与来源，合规的边界是把链接给到人、由他们自然行动，不组织集中行动。处罚（隐藏/封号/删帖）通常不可逆不可申诉。
+- **Stagger, don't carpet-bomb**: BetaList first (queue 3-4 weeks ahead) → Product Hunt as the main event → a second wave on Fazier, Uneed, and similar sites (same week or the next) → quality directory sites as the long tail. Bulk-submitting to hundreds of low-quality directories is busywork and hurts your SEO.
+- **Write separate copy for each channel**: tolerance for self-promotion varies wildly by platform (r/SideProject welcomes direct posts, r/SaaS allows one every sixty days and requires disclosure, HN only accepts honest, triable work). Reusing the same pitch everywhere will backfire. See `references/channels.md` for the tone to use on each.
+- **Zero tolerance for vote-begging (a blocking gate)**: both PH and HN explicitly ban asking for votes, across every channel: friends, employees, a newsletter, a community, all of it. What you can do is ask people to "go take a look and give feedback." **Getting a crowd to visit at the same coordinated time is just as dangerous**: the ranking algorithm is undisclosed and watches vote velocity and source, so the compliant boundary is handing the link to people and letting them act on their own, not organizing a coordinated push. Penalties (hidden listings, banned accounts, removed posts) are usually irreversible and can't be appealed.
 
-## 第六步：发布日与收尾
+## Step 6: launch day and the wrap-up
 
-- 当天在场：回评论、发战报邮件、社媒直播进展——发布是一场在场的对话，不是定时炸弹。
-- **脉冲转资产**：发布平台的流量是租来的一次性脉冲，结束时唯一带得走的是邮件列表与关注者——落地页的第一转化目标据此设计。
-- **复盘反哺**：每次发布写下学到的东西喂给下一次。发布素材、榜单成绩、复盘帖本身都是下次发布的资产。
+- Show up on the day: reply to comments, send status-update emails, post live progress on social. A launch is a conversation you show up for, not a bomb you set and walk away from.
+- **Turn the pulse into an asset**: traffic from a launch platform is a rented, one-time pulse, and the only thing you still have when it's over is your email list and your followers. Design the landing page's first conversion goal around that.
+- **Feed the retro back in**: after every launch, write down what you learned and feed it into the next one. Launch assets, leaderboard results, and the retro post itself are all assets for the next launch.
 
-## 红旗——出现这些就停
+## Red flags: stop the moment you see these
 
-| 念头/行为 | 现实 |
+| Thought / behavior | Reality |
 |---|---|
-| 「就发这一次，失败就算了」 | 只发一次就放弃是最常见死法。三式复发布随时可再来 |
-| 「找朋友们都去投一票」 | 全渠道拉票都算违规，处罚不可逆。只能请人看和评 |
-| 「landing page 先发着收邮箱」 | Show HN 明令不收，PH 也会被引导走。先做出可试用的东西 |
-| 「爆款发布复盘说要这样做」 | 幸存者偏差——爆款是分子，中位数发布默默无闻。学结构，别学结果 |
-| 「waitlist 攒着，发布时一次性引爆」 | 数月不联系的邮件列表已经去磁化，打开率会教你做人 |
+| "Just launch this once, and if it flops, that's that" | Launching once and giving up is the most common way to fail. The three relaunch moves mean you can always come back |
+| "Get all my friends to go vote" | Vote-begging on any channel counts as a violation, and the penalty is irreversible. All you can do is ask people to look and comment |
+| "Ship the landing page first and collect emails" | Show HN explicitly rejects this, and PH will steer you away too. Build something people can try first |
+| "The retro from a viral launch says to do it this way" | Survivorship bias: a viral launch is the numerator, and the median launch goes unnoticed. Learn the structure, not the outcome |
+| "Sit on the waitlist and detonate it all at once at launch" | An email list you've ignored for months is already demagnetized, and your open rate will teach you a lesson |

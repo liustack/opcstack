@@ -35,6 +35,8 @@ for path in targets:
                 fail.append(f'{path}:{lineno}: banned term 「{term}」')
         if ';' in prose or '；' in prose:
             fail.append(f'{path}:{lineno}: semicolon in prose')
+        if any(d in prose for d in ('\u2013', '\u2014', '\u2015')):
+            fail.append(f'{path}:{lineno}: dash in prose')
 
 if fail:
     print('STYLE FAIL')

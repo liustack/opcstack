@@ -1,60 +1,60 @@
 ---
 name: opc-marketing
-description: 营销诊断与人性底层理论：用 AARRR 定位增长瓶颈在漏斗哪一环，获客环内用 Bullseye 收敛渠道，再给出该环的底层理论与关键问句。Marketing diagnosis for one-person companies — locate the funnel bottleneck, converge on one channel, ground the fix in human-nature theory. Use when the user says 没增长 / 不知道营销从哪下手 / 获客好难 / 增长卡住了 / no growth / marketing isn't working / which channel should I focus on. Do not trigger for pure execution asks like 写文案/做海报/投放操作.
+description: 营销诊断与人性底层理论：用 AARRR 定位增长瓶颈在漏斗哪一环，获客环内用 Bullseye 收敛渠道，再给出该环的底层理论与关键问句。Marketing diagnosis for one-person companies. Locate the funnel bottleneck, converge on one channel, ground the fix in human-nature theory. Use when the user says 没增长 / 不知道营销从哪下手 / 获客好难 / 增长卡住了 / no growth / marketing isn't working / which channel should I focus on. Do not trigger for pure execution asks like 写文案/做海报/投放操作.
 ---
 
-# opc-marketing：营销诊断与底层理论
+# opc-marketing: marketing diagnosis and underlying theory
 
-本技能做两件事：**诊断瓶颈在哪，然后给该环的人性底层理论**——为什么用户不来、不激活、不付钱，根子都在人性层（叙事、模仿、不安、习惯、身份）。理论给你「为什么」，具体战术（文案怎么写、广告怎么投）由此推导，本技能不展开成执行教程——具体文案、投放等执行动作交给你环境中已有的能力或专项技能。
+This skill does two things: **diagnose where the bottleneck is, then hand you the human-nature theory behind that stage**: why users don't show up, don't activate, or don't pay always traces back to the level of human nature (narrative, imitation, insecurity, habit, identity). Theory gives you the "why," and the specific tactics (how to write the copy, how to run the ads) follow from that. This skill doesn't expand into an execution tutorial. The actual execution work (copywriting, running ad campaigns) is left to whatever capability or specialized skill you already have on hand.
 
-## 第一步：建立最小上下文
+## Step 1: establish minimal context
 
-诊断前必须知道三件事，缺哪个问哪个（一次一问）。三件补齐即进诊断，不加问：
+Before diagnosing, you need three things. Ask about whichever ones are missing, one question at a time. Once all three are in hand, move to diagnosis without asking anything else:
 
-1. 产品是什么、卖给谁（一句话）。
-2. 现状数字：访客量、注册/试用数、付费数、流失情况——有哪个说哪个，全没有也是重要信息。
-3. 已经试过什么营销动作，结果如何。
+1. What the product is and who it's sold to (one line).
+2. Current numbers: visitor count, signups/trials, paying customers, churn. Report whichever you have, and having none of them is itself important information.
+3. What marketing moves have already been tried, and what happened.
 
-## 第二步：AARRR 定位瓶颈
+## Step 2: locate the bottleneck with AARRR
 
-用漏斗五环定位数字最难看的一环。一人公司资源极度有限，**一次只修一环**：
+Use the five stages of the funnel to find whichever one has the ugliest numbers. A one-person company has extremely limited resources, so **fix one stage at a time**:
 
-| 环 | 自查问题 | 瓶颈典型症状 |
+| Stage | Question to check | Typical bottleneck symptoms |
 |---|---|---|
-| 获取 Acquisition | 有人来吗？ | 访客个位数、全靠偶发流量 |
-| 激活 Activation | 来的人用起来了吗？ | 有访客没注册，有注册没首次价值体验 |
-| 留存 Retention | 用过的人回来吗？ | 注册后第二周活跃归零 |
-| 收入 Revenue | 用的人付钱吗？ | 活跃不少，付费转化极低 |
-| 推荐 Referral | 用户带新用户吗？ | 零自传播，增长全靠自己推 |
+| Acquisition | Is anyone showing up? | Single-digit visitors, all from random, one-off traffic |
+| Activation | Do the people who show up actually use it? | Visitors but no signups, or signups with no first taste of value |
+| Retention | Do the people who used it come back? | Active usage drops to zero by the second week after signup |
+| Revenue | Do the people using it pay? | Decent activity, but paid conversion is next to nothing |
+| Referral | Do users bring in new users? | Zero organic sharing, all growth is self-driven |
 
-**完全没有数字时，瓶颈就是「测量」本身**——先搭最小追踪（哪怕手数日志），别蒙眼诊断。
+**When there are no numbers at all, the bottleneck is measurement itself**: set up minimal tracking first (even a hand-counted log), don't diagnose blind.
 
-**多环同时报警时按数据可信度仲裁**：样本量撑不起判断的环不算真报警（访客基数过小时，注册转化率只是噪音——小数定律，这条仲裁本质是偏差防火墙）。判「样本不足」前先把累计总数要到手（总访客/总注册），不凭日均印象定性。先修上游可确定的环，两环数据都充分时同样修漏斗更上游的环。结论末尾可附一句「量级上来后复查下游某环」——这不违反单环规则，展开成第二套诊断才违反。
+**When several stages are flashing warnings at once, arbitrate by how trustworthy the data is**: a stage where the sample size can't support a real judgment doesn't count as a genuine warning: when the visitor base is tiny, the signup conversion rate is just noise (the law of small numbers), and this arbitration rule is itself a bias firewall. Before you call a stage "insufficient sample," get the cumulative totals in hand (total visitors, total signups) rather than eyeballing a daily average. Fix the earliest confirmable stage first, and when two stages both have enough data, still fix the one further upstream. You can close with a line like "recheck a downstream stage once volume picks up." That doesn't break the one-stage-at-a-time rule. Only expanding it into a second full diagnosis would.
 
-## 第三步：获取环专用——Bullseye 渠道收敛
+## Step 3: Bullseye channel convergence (acquisition stage only)
 
-瓶颈在获取时不要直接跳到「做 SEO」或「投广告」，先走三圈收敛（19 渠道清单见 `references/foundations.md` 获取节）：
+When the bottleneck is acquisition, don't jump straight to "do SEO" or "run ads." Work through three converging circles first (the list of 19 channels is in the acquisition section of `references/foundations.md`):
 
-1. **外圈**：过一遍 19 渠道清单，每个都想一句「如果非用它不可，会怎么做」。外圈扫描在内部完成，呈现给用户的只有收敛结果与排除理由。
-2. **中圈**：筛出 2–3 个用户有认知、有接触面或竞品已验证的渠道。筛选依据优先取用户已透露的经验，不足时问一句。用户确无任何渠道经验时，代为提议一两个测试成本最低的渠道并明说这是提议，不是替用户拍板。
-3. **内圈**：小成本测试中圈渠道，**聚焦跑通的那一个**（聚焦即机会成本原则：一人公司的时间投进 A 渠道，代价是 B 渠道的全部可能性）。差的分销、而非差的产品，是创业失败的头号原因——一个跑通的渠道就是一门好生意。
+1. **Outer circle**: go through the 19-channel list and, for each one, think through "if I had to use this and nothing else, what would I do?" This scan happens internally. All the user sees is the converged result and the reasons for ruling channels out.
+2. **Middle circle**: narrow it down to 2-3 channels the user already understands, already has reach into, or that a competitor has already validated. Prefer whatever experience the user has already shared, and ask only when that's not enough. If the user genuinely has no channel experience, propose one or two of the lowest-cost-to-test channels yourself, and say plainly that it's a suggestion, not a decision you're making for them.
+3. **Inner circle**: test the middle-circle channels cheaply, then **focus on the one that works** (focus follows the opportunity-cost principle: for a one-person company, every hour put into channel A is an hour taken away from every possibility in channel B). Bad distribution, not a bad product, is the number one reason startups fail. One channel that actually works is already a good business.
 
-每个候选渠道多问一句资产归属：**这个渠道攒下的东西归谁？** 邮件列表、社区、SEO 权重是你的沉淀资产，平台算法流量是租来的。租来的红利渠道也可以是好选择（窗口期套利），但要知道自己在租——配退出纪律，并持续把注意力和关系往自有资产搬。资产归属在此问一次即可，输出的理论要点节不再重复展开。
+For every candidate channel, ask one more question about who owns the asset: **who keeps what this channel builds up?** An email list, a community, SEO authority: these are assets you accumulate. Platform-algorithm traffic is rented. A rented, high-yield channel can still be a good choice (window-period arbitrage), just know that you're renting. Pair it with exit discipline, and keep shifting attention and relationships toward assets you actually own. Ask the asset-ownership question once here, no need to repeat it in the theory-points section of the output.
 
-## 第四步：理论回填与输出
+## Step 4: fill in the theory and produce the output
 
-按瓶颈环完整读 `references/foundations.md` 对应节（含通用底座「影响力三层协议」：先读懂对方在想什么、要什么，才轮到你说什么——大多数「营销没效果」的病根是没读对方就自顾自输出卖点）。
+Read the matching section of `references/foundations.md` in full for whichever stage is the bottleneck (it includes the shared foundation, the "three-layer influence protocol": understand what the other person is thinking and wants before it's your turn to say anything. Most cases of "marketing isn't working" trace back to pitching your selling points without first reading the other person at all).
 
-诊断输出落盘到工作区草稿目录 `.issues/<YYYY-MM-DD-主题>/marketing.md`——「量级上来后复查下游某环」的提示要有处可回。落盘前先确保草稿目录被忽略：`git check-ignore .issues` 不通过时，把 `.issues/` 追加进 `.git/info/exclude`（本地忽略，不动共享 `.gitignore`）并告知用户一句。非 git 环境无提交风险，直接写。输出格式：
+Save the diagnosis to the workspace draft directory `.issues/<YYYY-MM-DD-topic>/marketing.md`. The "recheck a downstream stage once volume picks up" reminder needs somewhere to land. Before saving, make sure the draft directory is git-ignored: if `git check-ignore .issues` fails, append `.issues/` to `.git/info/exclude` (a local ignore, leave the shared `.gitignore` alone) and give the user a one-line heads-up. In a non-git environment there's no commit risk, so just write it directly. Output format:
 
-1. **瓶颈判定**（含数据依据与仲裁理由）。
-2. **该环的理论要点与关键问句**（3–5 条，从 foundations 对应节取用并结合用户的具体产品作答，不抄清单）。
-3. **最小可行动作**（一段话，从理论推导而来，不展开成教程）。
-4. 一句复查提示（如有被搁置的下游环）。
+1. **The bottleneck verdict** (with the data behind it and the reasoning for the arbitration).
+2. **Theory points and key questions for that stage** (3-5 of them, drawn from the matching foundations section and answered against the user's specific product: don't just copy the list).
+3. **The minimal viable action** (one paragraph, derived from the theory, not expanded into a tutorial).
+4. One line of recheck reminder (if a downstream stage got set aside).
 
-## 硬规则
+## Hard rules
 
-- 一次只诊断一个瓶颈环，不输出「五环都要优化」的清单——那等于什么都没说。
-- 理论要点必须结合用户的具体产品与人群作答，照抄 foundations 原文等于没诊断。
-- 用户明确要求当场产出执行物（整套文案、投放计划）时，声明这超出本技能范围，再按通用能力尽力做。
-- 伦理红线见 foundations 通用底座：识别人性机制是分析义务，伪造稀缺、制造依赖、过度承诺是禁区。
+- Diagnose exactly one bottleneck stage at a time. Don't output an "optimize all five stages" list. That's the same as saying nothing.
+- Theory points have to be answered against the user's specific product and audience. Copying the foundations text verbatim isn't a diagnosis.
+- If the user explicitly asks for a finished deliverable on the spot (a full set of copy, a media plan), say plainly that it's outside this skill's scope, then do your best with your general capabilities.
+- For the ethical line, see the shared foundation in foundations: identifying mechanisms of human nature is analytical work, but manufacturing false scarcity, engineering dependency, and overpromising are off-limits.

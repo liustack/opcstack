@@ -31,6 +31,23 @@ for dir in skills/*/; do
   fi
 done
 
+
+# Every English document must have a Chinese translation twin, and no orphans.
+while IFS= read -r f; do
+  twin="${f%.md}.zh-CN.md"
+  if [[ ! -f "$twin" ]]; then
+    echo "FAIL $f: missing translation twin"
+    fail=1
+  fi
+done < <(find skills -type f -name '*.md' ! -name '*.zh-CN.md')
+while IFS= read -r f; do
+  base="${f%.zh-CN.md}.md"
+  if [[ ! -f "$base" ]]; then
+    echo "FAIL $f: translation without an English original"
+    fail=1
+  fi
+done < <(find skills -type f -name '*.zh-CN.md')
+
 if [[ $count -eq 0 ]]; then
   echo "FAIL: no skills found under skills/"
   exit 1

@@ -3,62 +3,62 @@ name: opc-niche
 description: 细分市场发现与评估：四路信号交叉验证（关键词/社区痛点/竞品差评/趋势）+ 五维评分卡 + AI 红海测试，输出 go/收窄/no-go 结论。Niche discovery and scoring for one-person companies. Use when the user wants to 找产品或生意方向 / 选赛道 / 找细分市场 / 验证一个 niche / find a niche / validate a market idea / what product or business should I build.
 ---
 
-# opc-niche：细分市场发现与评估
+# opc-niche: niche discovery and evaluation
 
-帮一人公司找到并评估细分市场。niche 的本名是生态位——不只是「细分市场」，更是权力结构里的位置，评估的终点问题是：**你掌握哪个卡口（分发节点、用户关系终端），还是只是一块随时可被替换的电池**。核心方法：多路独立信号交叉验证，再用评分卡逼出结论——单一信号（比如只看搜索量）是最常见的选错原因。信号矩阵管证据，逆向管排雷，五要素管本质。评分卡把判断逼成可比较的决策，红海测试专排从众与幸存者错觉。
+Helps a one-person company find and evaluate a niche. "Niche" originally names an ecological position: not merely a market segment but a position in a power structure. The terminal question of the evaluation is: **do you hold a chokepoint (a distribution node, the terminal of the user relationship), or are you just a battery that can be swapped out at any time**? Core method: cross-validate several independent signals, then force a conclusion with a scorecard. A single signal (search volume alone, say) is the most common reason for picking the wrong niche. The signal matrix handles the evidence, inversion handles the pitfalls, and the five factors handle the substance. The scorecard forces judgment into a comparable decision, and the red-sea test specifically screens out herd behavior and survivorship illusions.
 
-## 第一步：确认起点
+## Step 1: confirm the starting point
 
-先判断用户处于哪种状态，再走对应入口：
+First figure out which state the user is in, then take the matching entry point:
 
-- **完全没方向** → 先问能力圈：你做过什么行业、懂什么人群、有什么别人没有的接触面？候选 niche 从能力圈与信号源的交集里找，不从热榜里找。用户已主动给出的信息不重复问，只补缺口。
-- **已有候选要验证** → 直接进信号收集。
-- 多个候选时逐个过，不并行比稀烂账。
+- **No direction at all** → start with the capability circle: what industries have you worked in, what audience do you understand, what access do you have that others don't? Look for candidate niches at the intersection of the capability circle and the signal sources, not off a trending list. Don't re-ask for anything the user has already volunteered. Only fill the gaps.
+- **Already has a candidate to validate** → go straight to signal collection.
+- With multiple candidates, work through them one at a time, don't run a messy parallel comparison.
 
-## 第二步：信号收集（至少交叉两路）
+## Step 2: signal collection (cross-check at least two)
 
-四路信号源相互独立，完整操作步骤与工具清单见 `references/signals.md`。速查：
+The four signal sources are independent of each other. Full steps and a tool list are in `references/signals.md`. Quick reference:
 
-| 信号源 | 找什么 | 好信号 |
+| Signal source | What to look for | A good signal |
 |---|---|---|
-| 关键词流 | 低竞争度 + 购买意图的长尾词族 | SERP 前排是小博客/论坛帖/过时页面，而非权威站 |
-| 社区挖掘 | 垂直社区里「讨厌某个工作流程」的帖子 | 同一痛点反复出现、发帖人已在用胶水方案凑合。判读时过一遍伪需求测试——分清这个诉求是大家互相抄来的一阵风，还是互不知情的几个人独立提出（后者才是真信号，展开见 references/foundations.md） |
-| 竞品缺口 | G2/Capterra/App Store 的一二星差评 | 差评集中指向同一个被忽视的需求 |
-| 趋势 | 新兴话题的早期信号 | 趋势工具发现 + Google Trends 真实搜索量验证，二者同向 |
+| Keyword streams | Long-tail keyword families with low competition and buying intent | The top of the SERP is small blogs, forum posts, and outdated pages, not authority sites |
+| Community mining | Posts in vertical communities that "hate some workflow" | The same pain point keeps coming up, and posters are already duct-taping together workarounds. When reading these, run the fake-demand test: tell apart whether the complaint is a fad everyone is echoing from each other, or something several unconnected people raised independently (only the latter is a real signal, see `references/foundations.md` for more) |
+| Competitor gaps | One- and two-star reviews on G2, Capterra, the App Store | The negative reviews cluster around the same neglected need |
+| Trends | Early signals on emerging topics | A trend tool surfaces it and Google Trends confirms real search volume, both pointing the same way |
 
-硬规则：**至少两路信号同向才算候选成立**。只有一路时，结论上限是「值得再收集一路信号」，不是 go。
+Hard rule: **a candidate only qualifies once at least two signals point the same way**. With only one, the ceiling on your conclusion is "worth collecting a second signal," not go.
 
-## 第三步：AI 红海测试（2025–2026 特化）
+## Step 3: the AI red-sea test (specific to 2025-2026)
 
-产品核心功能依赖模型推理（生成、分类、归因、摘要等）即算 AI 相关，拿不准就从宽判定。混合产品（非 AI 层 + AI 层）拆层处理：触发从宽（含 AI 子功能即测），电池位判定对 AI 层单独做，结论里标注红旗落在哪一层。相关时必做三问：
+If a product's core function depends on model inference (generation, classification, attribution, summarization, and the like), it counts as AI-related. When in doubt, classify it as AI-related. For hybrid products (a non-AI layer plus an AI layer), handle the layers separately: trigger the test liberally (any AI sub-feature is enough to run it), judge the battery-position question for the AI layer on its own, and note in your conclusion which layer the red flag sits on. When it's relevant, run all three questions:
 
-1. **电池位判定**：是否属于通用 wrapper 品类（写作助手、聊天机器人、会议摘要）？2025 年以来倒闭的 AI 创业公司几乎全部集中在这些横向品类——它们死于不掌握任何卡口，纯电池位随时被上游替换。是 → 红旗，除非能指出自己的卡口（独占数据、用户关系、分发权）。此测试本质是偏差防火墙：排掉社会认同（大家都在做）与幸存者偏差（只看见跑出来的那个）。
-2. **真实人力成本测试**：它替代的是哪一笔可衡量的人力开支（某岗位年薪、某专业服务时薪）？答不上来 → 价值主张存疑。
-3. **窗口期测试**：数精确细分买家群体内的已融资竞品——少于 5 个是空白，少于 10 个是新兴，10 个及以上是拥挤（此时差异化必须来自精确切位，不能来自品类本身）。同时看有没有催化事件（监管截止日、技术解锁）。**窗口长短是定价参数，不是减分项**——合法合规的短窗套利是真生意。定价四问：窗口长度相对回本周期的倍数？期内回报几倍？窗口误判/关闭时退出成本？结束时可带走什么（反链、域名权重、数据、技能是可积累项，有则窗口关闭也留资产）。再补一问辨热度来源：这个赛道的繁荣是真实需求爆发，还是资本泡沫。
+1. **The battery-position test**: does it fall into a generic wrapper category (writing assistants, chatbots, meeting summarizers)? Nearly every AI startup that's folded since 2025 has clustered in these horizontal categories. They died because they held no chokepoint at all, and a pure battery position gets replaced by the upstream layer whenever it wants. If yes → red flag, unless you can point to a chokepoint of your own (exclusive data, a user relationship, distribution rights). This test is itself a bias firewall: it screens out social proof (everyone's doing it) and survivorship bias (you only see the one that made it).
+2. **The real labor-cost test**: what measurable labor expense does it replace (a role's annual salary, a professional service's hourly rate)? If you can't answer that → the value proposition is in doubt.
+3. **The window-period test**: count funded competitors within the precisely defined buyer segment: fewer than 5 is wide open, fewer than 10 is emerging, 10 or more is crowded (at that point, differentiation has to come from a precise cut, not from the category itself). Also check for a catalyzing event (a regulatory deadline, a technology unlock). **How long the window is a pricing parameter, not a mark against you**: legal, compliant short-window arbitrage is a real business. Four pricing questions: how long is the window as a multiple of the payback period? How many times over does the in-window return pay back? What's the exit cost if the window is misjudged or closes? What can you take with you when it ends (backlinks, domain authority, data, and skills are all accumulable, so even a closed window leaves you with assets)? One more question to add, to tell apart where the heat is coming from: is this category's boom real demand taking off, or a capital bubble?
 
-## 第四步：五维评分卡
+## Step 4: the five-dimension scorecard
 
-每维 0–10 打分。此评分结构是行业趋同实践，无单一权威出处：
+Score each dimension 0-10. This scoring structure is a converged industry practice, with no single authoritative source:
 
-| 维度 | 打分要点 |
+| Dimension | Scoring notes |
 |---|---|
-| 市场规模 | 一人公司甜蜜点约 2 万–20 万潜在买家（此区间是本技能的判定标尺，不是对具体市场的事实断言）。太大养不起获客，太小养不起产品。零核实时只打方向性分数，不产出具体人数 |
-| 竞争度 | 竞品「小、老、体验差、无风投」= 高分。已有融资巨头盘踞 = 低分。结构判断跑一遍五力速查（见 references/foundations.md） |
-| 变现潜力 | 用单元经济语言粗算（LTV > CAC + COC，见 references/foundations.md）。优先一次性付费/低维护形态，高维护订阅对一人公司是持续客服负担 |
-| 可触达性 | 能否用 SEO/社区/目录站低成本触达？要拼付费投放的 niche 对一人公司不友好 |
-| 时机与寿命 | 窗口长度 ÷ 回本周期的倍数、退出成本、结束时可带走的资产。**短窗口不减分**——窗口六个月、回本两周是高分生意 |
+| Market size | The sweet spot for a one-person company is roughly 20,000-200,000 potential buyers (this range is this skill's own yardstick, not a factual claim about any specific market). Too big and you can't afford acquisition, too small and you can't sustain the product. With zero verification, give only a directional score, don't output a specific headcount |
+| Competition | Competitors that are "small, old, poor experience, no VC funding" = a high score. An entrenched, well-funded incumbent = a low score. For the structural read, run the five-forces quick check (see `references/foundations.md`) |
+| Monetization potential | Rough it out in unit-economics terms (LTV > CAC + COC, see `references/foundations.md`). Favor one-time payment or low-maintenance forms. A high-maintenance subscription is an ongoing support burden for a one-person company |
+| Reachability | Can you reach it cheaply through SEO, communities, or directory sites? A niche that requires paid acquisition to compete in is unfriendly to a one-person company |
+| Timing and lifespan | The window length divided by the payback period, the exit cost, and what assets remain when it ends. **A short window is no mark against you**: a six-month window with a two-week payback is a high-scoring business |
 
-**判定规则**：任一维 < 4 即红旗——不是放弃，是先收窄再重打（例：「记账软件」变现与触达低分 → 收窄为「房产经纪的成交会议 AI 记录」后竞争与变现分数跳升）。收窄两次仍有红旗才是 no-go。
+**Scoring rule**: any dimension scoring below 4 is a red flag. That doesn't mean give up, it means narrow the niche and rescore first (example: "bookkeeping software" scores low on monetization and reachability → narrowing it to "AI meeting notes for real-estate closings" pushes both the competition and monetization scores up). Only after narrowing twice and still hitting a red flag does it become a no-go.
 
-## 第五步：五要素复核与输出
+## Step 5: five-factor recheck and output
 
-评分通过后读 `references/foundations.md` 的护城河与周期节，再用五要素问一遍底层问题：人为什么掏钱（人性）、谁掌握议价权（结构）、是一次性套利还是复利资产（时间）、单点依赖在哪（风险）、价值是否远大于成本（价值）。
+Once it passes scoring, read the moat and lifecycle sections of `references/foundations.md`, then run the underlying questions through the five factors one more time: why do people pay (human nature), who holds the bargaining power (structure), is this one-time arbitrage or a compounding asset (time), where are the single points of failure (risk), is the value far greater than the cost (value)?
 
-输出报告落盘到工作区草稿目录 `.issues/<YYYY-MM-DD-主题>/niche.md`——核实计划要「跑完两路回来」，落盘就是回来的载体。落盘前先确保草稿目录被忽略：`git check-ignore .issues` 不通过时，把 `.issues/` 追加进 `.git/info/exclude`（本地忽略，不动共享 `.gitignore`）并告知用户一句。非 git 环境无提交风险，直接写。报告结构：候选描述 / 信号证据（注明每条来源与核实状态）/ 红海测试结果 / 评分卡 / 五要素复核 / **结论四态：go·短窗套利型（必附退出纪律——窗口关闭信号与止损线）、go·长线复利型、收窄重评、no-go** / 下一步建议（go 时建议用 opc-checkup 做完整商业体检）。
+Save the output report to the workspace draft directory `.issues/<YYYY-MM-DD-topic>/niche.md`. The verification plan needs to "come back after running two signals," and saving the file is what it comes back to. Before saving, make sure the draft directory is git-ignored: if `git check-ignore .issues` fails, append `.issues/` to `.git/info/exclude` (a local ignore, leave the shared `.gitignore` alone) and give the user a one-line heads-up. In a non-git environment there's no commit risk, so just write it directly. Report structure: candidate description / signal evidence (note the source and verification status for each item) / red-sea test results / scorecard / five-factor recheck / **four possible conclusions: a go for the short-window arbitrage type (must include exit discipline: the signal for the window closing and a stop-loss line), a go for the long-line compounding type, narrow and rescore, or no-go** / next steps (when the conclusion is go, recommend a full business checkup with opc-checkup).
 
-## 硬规则
+## Hard rules
 
-- 搜索量、竞争度、竞品融资等外部事实：能联网核实就核实，不能就标注「未核实」，不要编造数字——**数量级估算（「大概几万」）也算编造**，一律标注。
-- 评分卡分数是主观判断量表，不属于外部事实。但支撑打分的依据里凡未核实的事实须标注，且**零路信号核实时不得给出任何正式结论标签**（go/no-go/收窄重评都不可用），只能输出「核实计划 + 各信号的判定标准」——评分卡内部的红旗收窄照常执行，它是打分动作不是结论标签。
-- 来源是营销型内容站（卖 idea 数据库、卖课页面）时，标注来源性质，其数据只作参考不作依据。
-- 结论用概率语气（大概率/倾向于/需验证），评分卡是逼问工具不是真理。
+- For external facts like search volume, competition, and competitor funding: verify online whenever you can, and label anything you can't as "unverified." Don't make up numbers. **Order-of-magnitude guesses ("tens of thousands, roughly") count as fabrication too**, and always get labeled.
+- Scorecard scores are a subjective judgment scale, not external facts. But within the reasoning behind each score, any unverified fact still needs a label, and **with zero signals verified, no formal conclusion label may be given at all** (go, no-go, and narrow-and-rescore are all off the table). The only output allowed is "a verification plan plus the scoring criteria for each signal." Narrowing a red flag inside the scorecard itself still runs as normal, since that's a scoring action, not a conclusion label.
+- When the source is a marketing content site (an idea database, a course sales page), label the nature of the source. Its data is a reference point only, never a basis for the conclusion.
+- State conclusions in probabilistic language (likely / tends to / needs verification). A scorecard is a tool for forcing rigor, not a source of truth.

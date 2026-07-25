@@ -1,43 +1,43 @@
-# 四路信号源：操作步骤与工具
+# Four signal sources: steps and tools
 
-每路信号给出可执行步骤。工具会过时，思路不会——工具不可用时按「找什么」一栏找平替。
+Each signal path comes with executable steps. Tools go stale, the underlying approach doesn't. When a tool is unavailable, use the "what to look for" column to find a substitute.
 
-## 1. 关键词流（搜索需求证据）
+## 1. Keyword flow (evidence of search demand)
 
-代表实践：Danny Postma 的 HeadshotPro 路径——关键词优先、产品第二。
+A representative practice: Danny Postma's HeadshotPro playbook. Keywords first, product second.
 
-1. **种子词**：列出该 niche 的 5–10 个核心词，用关键词工具（Ahrefs、Semrush、LowFruits、Keyword Chef 等）查搜索量与竞争度（KD）。
-2. **筛选标准**：低 KD + 购买前意图（pre-purchase intent）。参考锚点：HeadshotPro 选中的 "professional headshots" 月搜 21K、KD≈23，避开了超竞争的 "headshots"。
-3. **SERP 人工核查**（不可省略）：工具分数只是初筛，逐个看目标词的搜索结果首页——前排是小博客、论坛帖、过时页面 = 真空隙。前排是权威大站 = 工具分数骗了你。无法联网时此步降级为待办交给用户，该信号在报告中记为「未完成」，不算通过。
-4. **长尾扩展**：验证词族能否程序化展开（城市/行业/场景变体）。长尾数据背景：约 91.8% 的搜索是长尾词，长尾转化率显著高于短头词。
-5. **反面教训**：程序化页面内容过薄会被搜索引擎惩罚（Postma 的 "headshots near me" 翻车案例）——长尾覆盖必须保证每页真实内容深度。
+1. **Seed words**: list 5-10 core terms for the niche, and check search volume and competition (KD) with a keyword tool (Ahrefs, Semrush, LowFruits, Keyword Chef, etc.).
+2. **Screening criteria**: low KD plus pre-purchase intent. A reference anchor: HeadshotPro's chosen term "professional headshots" gets 21K monthly searches at KD ≈ 23, sidestepping the far more competitive "headshots."
+3. **Manual SERP verification** (cannot be skipped): the tool score is only a first pass. Look at the actual results page for each target term: small blogs, forum posts, and outdated pages up front mean a real gap. Authoritative major sites up front mean the tool score lied to you. When you can't get online, this step downgrades to a to-do handed to the user, and the signal is logged as "incomplete" in the report: it does not count as passed.
+4. **Long-tail expansion**: verify whether the keyword family can be expanded programmatically (city, industry, or scenario variants). Background on long-tail data: roughly 91.8% of searches are long-tail terms, and long-tail conversion rates run significantly higher than short head terms.
+5. **A cautionary tale**: programmatic pages with too-thin content get penalized by search engines (Postma's "headshots near me" backfired for exactly this reason). Long-tail coverage has to guarantee real content depth on every page.
 
-## 2. 社区挖掘（痛点强度证据）
+## 2. Community mining (evidence of pain-point intensity)
 
-1. 找到该人群聚集的垂直社区（subreddit、行业论坛、Facebook/微信群、垂直 Slack/Discord）。
-2. **找「讨厌某个工作流程」的帖子**，不是「大家觉得我该做什么」的求点子帖——前者是真痛点，后者是噪音。痛点帖是「未被消除的不安」的原始文本。
-   可信度分层：用户本人的一手转述（他自己就在那个社群）算**线索**，不计入已核实路数——「已核实」要求分析者独立查证原帖，或用户提供可回查的原始记录。
-3. 判读时用 JTBD 追一层：发帖人在雇什么完成什么 job（功能/社交/情感）？现在怎么凑合？他说要的是「更快的马」还是「更快的到达」——表层诉求照单全收会做错产品，深层 job 才是 niche 的本源。
-4. 记录三个量：痛点出现频率、发帖人情绪强度、是否已在用胶水方案（用表格+人肉凑合 = 强付费信号）。
-5. 顺手收集用户的原生措辞——真实用户的说法往往是竞争更弱的关键词，反哺第 1 路。
+1. Find the vertical communities where this group gathers (a subreddit, an industry forum, a Facebook or WeChat group, a vertical Slack or Discord).
+2. **Look for posts that "hate some workflow,"** not posts asking "what do you think I should build": the former is a real pain point, the latter is noise. A pain-point post is the raw text of "uneasiness that hasn't been removed."
+   A credibility tier: a user's own first-hand account (they were in that community themselves) counts as a **lead**, not as part of the verified count. "Verified" requires the analyst to independently confirm the original post, or the user to supply a traceable original record.
+3. When reading it, chase one layer deeper with JTBD: what job is the poster hiring something to complete (functional / social / emotional)? What are they doing to make do right now? Do they say they want a "faster horse" or "getting there faster": taking the surface ask at face value gets the product wrong, and the underlying job is the true source of the niche.
+4. Record three measures: how often the pain point comes up, the intensity of the poster's emotion, and whether they're already using a duct-tape solution (making do with a spreadsheet plus manual labor is a strong signal of willingness to pay).
+5. While you're at it, collect the user's own native phrasing: real users' own words are often lower-competition keywords, feeding back into signal path 1.
 
-## 3. 竞品缺口（未满足需求证据）
+## 3. Competitor gaps (evidence of unmet demand)
 
-1. 列出该 niche 现有产品，读 G2 / Capterra / Trustpilot / App Store 的一二星差评。
-2. 找**集中指向同一被忽视需求**的差评群，而非零散抱怨。
-3. 五星好评同样有用——它告诉你用户真正爱的是哪个点，那是你不能做差的底线。
+1. List the existing products in the niche, and read the one- and two-star reviews on G2 / Capterra / Trustpilot / the App Store.
+2. Look for a cluster of negative reviews **pointing at the same neglected need**, rather than scattered complaints.
+3. Five-star reviews are just as useful: they tell you exactly what users love, which is the floor you can't build below.
 
-## 4. 趋势（时机证据）
+## 4. Trends (evidence of timing)
 
-1. 用趋势发现工具（Exploding Topics 一类）找早期信号。
-2. **必须**再用 Google Trends 验证真实搜索热度同向——趋势工具单独使用容易被算法噪音带偏。
-3. 记录趋势阶段：萌芽（无既有玩家）、增长（新兴玩家涌入）、平台期（格局已定）。一人公司的最优入场点通常在萌芽末到增长早期。
+1. Use a trend-discovery tool (something like Exploding Topics) to find early signals.
+2. **Then verify** with Google Trends that real search interest is moving in the same direction: a trend tool used on its own is easily thrown off by algorithmic noise.
+3. Record the trend stage: emerging (no established players), growth (new players pouring in), or plateau (the landscape has settled). A one-person company's optimal entry point is usually from late emergence into early growth.
 
-## 信号组合的含义
+## What signal combinations mean
 
-| 组合 | 解读 |
+| Combination | Interpretation |
 |---|---|
-| 关键词 + 社区同向 | 有搜索需求且痛点真实——最强组合 |
-| 社区 + 竞品差评同向 | 痛点真实且现有方案不行——适合差异化切入 |
-| 只有趋势信号 | 太早或伪趋势，再等一路信号 |
-| 关键词强但社区无痛点讨论 | 可能是信息型搜索而非购买型需求，回查搜索意图 |
+| Keyword + community agree | Real search demand and a real pain point: the strongest combination |
+| Community + competitor reviews agree | The pain point is real and existing solutions fall short: good for a differentiated entry |
+| Trend signal alone | Too early, or a false trend: wait for another signal |
+| Strong keyword but no pain-point discussion in the community | Possibly informational search rather than purchase-intent demand: recheck search intent |

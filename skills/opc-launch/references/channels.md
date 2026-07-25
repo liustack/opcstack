@@ -1,48 +1,48 @@
-# 渠道规则与语气分支
+# Channel rules and tone, by platform
 
-平台规则漂移快（本文核实于 2026-07），执行前对照各平台官方页面再确认，规则冲突时以官方页面为准。
+Platform rules drift fast (this document was last verified 2026-07). Confirm against each platform's official pages before executing, and defer to the official page whenever there's a conflict.
 
 ## Product Hunt
 
-- 24 小时榜单周期以太平洋时间为准（夏令时 PDT / 冬令时 PST），惯例在当地 00:01 上线，可提前排期至多一个月。
-- 自己 hunt 自己的产品是官方推荐路径（官方数据：79% 精选帖为 maker 自行提交），第三方 hunter 无可辨别的优势。**公司账号被禁止**，用个人账号。
-- **红线（官方原文级）**：不得索要投票（只能请人看与反馈）、不得付费买票或买流量——后果是移除产品乃至永久封号。排名算法官方主动保密。
-- 重发同一产品：官方允许，前提是「有意义的迭代」。
-- 时机：周中总流量高但票数门槛也高，周末冲当日名次门槛显著更低（第三方数据口径：周六约 550 净票 vs 周二约 1050，非官方数字仅作量级参考）。
-- 2025–2026 传闻中的算法变化（Featured/All 双 tab、编辑精选约 10%、早期投票速度与老账号权重）为多方第三方一致口径，**非官方原文证实**。
-- 官方已下线站内 teaser/coming soon 页——蓄水靠站外邮件列表。
-- 语气：产品页与首评讲「帮谁解决什么」的故事 + 请求反馈，绝不出现任何投票字眼。
+- The 24-hour leaderboard cycle runs on Pacific time (PDT during daylight saving, PST otherwise). The convention is to go live at 00:01 local time, and you can schedule up to a month in advance.
+- Hunting your own product is the officially recommended path (official data: 79% of featured posts are self-submitted by the maker), and third-party hunters show no discernible advantage. **Company accounts are banned.** Use a personal account.
+- **Red line (at the level of official wording)**: do not ask for votes (you may only ask people to look and give feedback), and do not pay for votes or traffic. The consequence is product removal or even a permanent ban. The ranking algorithm is officially kept confidential.
+- Relaunching the same product: officially allowed, provided there is a "meaningful iteration."
+- Timing: total traffic is higher midweek, but so is the vote threshold. Going for a same-day ranking on the weekend has a significantly lower threshold (third-party figures: roughly 550 net votes on Saturday vs. roughly 1,050 on Tuesday: these are unofficial numbers, useful only as an order-of-magnitude reference).
+- The algorithm changes rumored for 2025-2026 (a Featured/All dual-tab setup, roughly 10% editorial picks, early vote velocity and account-age weighting) are a consistent read across multiple third-party sources, **not confirmed by official text**.
+- The on-site teaser / coming-soon page has officially been retired. Build your waitlist off-site through an email list.
+- Tone: the product page and the first comment tell the story of who this helps and with what, plus a request for feedback. Never any language asking for votes.
 
-## Hacker News（Show HN）
+## Hacker News (Show HN)
 
-- 官方定义：**别人能上手玩的、你做的东西**。不收：博客文、注册页、newsletter、清单、landing page、募资页。小版本更新不够格，major overhaul 才行。
-- 标题以 `Show HN:` 开头，不用大写/感叹号/吹嘘词。发布后别改标题（有降权风险的社区共识）。
-- **红线**：禁止向任何渠道（朋友/员工/社群/newsletter/社媒）拉票拉评论。被删的帖子不能重发。
-- 自我推广边界：偶尔发自己的东西可以，把 HN 当主要推广渠道不行。坦诚署名（「我做的」）比隐藏关联安全。
-- 语气：工程师对工程师的坦诚——是什么、为什么做、怎么做的、已知限制。首评自己写技术背景与取舍，欢迎质疑。
+- Official definition: **something you made that other people can go try**. Not accepted: blog posts, sign-up pages, newsletters, listicles, landing pages, or fundraising pages. A minor version update doesn't qualify. It needs to be a major overhaul.
+- The title starts with `Show HN:`, with no caps, exclamation marks, or hype words. Don't change the title after posting (community consensus holds this risks a ranking penalty).
+- **Red line**: soliciting votes or comments through any channel (friends / employees / communities / a newsletter / social media) is banned. A deleted post cannot be reposted.
+- The boundary on self-promotion: posting your own work occasionally is fine. Treating HN as your primary promotion channel is not. Disclosing the connection openly ("I made this") is safer than hiding it.
+- Tone: engineer-to-engineer candor: what it is, why you built it, how you built it, known limitations. Write your own technical background and trade-offs in the first comment, and invite pushback.
 
-## Reddit（分版差异极大）
+## Reddit (varies enormously by subreddit)
 
-- **r/SideProject**：真诚自推友好，最安全的首发社区。
-- **r/SaaS**：纯推广受限（约 60 天一次且须披露），欢迎的是夹带产品的真实叙事帖（技术决策/定价实验/获客踩坑）。
-- **r/indiehackers**：SHOW IH 标签下可自推一次，定位是求反馈。
-- 多数版只允许在固定 megathread（Promote Yourself Saturday 类）里自推，发主贴会被删——发帖前读该版 sidebar 规则，这一步不可省。
-- 语气：故事与数字优先，链接放文末。广告腔在任何版都是死。
+- **r/SideProject**: friendly to genuine self-promotion, the safest community for a first launch.
+- **r/SaaS**: pure promotion is restricted (roughly once every 60 days, and must be disclosed). What's welcome is a genuine narrative post that happens to carry the product along (a technical decision, a pricing experiment, a customer-acquisition misstep).
+- **r/indiehackers**: one self-promotion post is allowed under the SHOW IH tag, positioned as asking for feedback.
+- Most subreddits only allow self-promotion inside a fixed megathread (the "Promote Yourself Saturday" type). A standalone post gets removed. Read that subreddit's sidebar rules before posting. This step cannot be skipped.
+- Tone: story and numbers first, link at the bottom of the post. Ad copy is dead on arrival in any subreddit.
 
-## 目录站（长尾批次）
+## Directory sites (the long-tail batch)
 
-- 值得提交：BetaList（提前 3–4 周排队）、Indie Hackers、StartupBase、Uneed、Fazier（PH 后的第二波）、SaaSHub、SourceForge。B2B 加 G2/Capterra/Crozdesk。
-- 不值得：批量提交上百个低质自动收录站——busywork 且伤 SEO。
+- Worth submitting to: BetaList (queue 3-4 weeks ahead), Indie Hackers, StartupBase, Uneed, Fazier (the second wave after Product Hunt), SaaSHub, SourceForge. For B2B, add G2 / Capterra / Crozdesk.
+- Not worth it: bulk-submitting to hundreds of low-quality auto-listing sites. That's busywork, and it hurts SEO.
 
 ## X / Build in Public
 
-- 打法：每周一条深度 thread（真实数字与教训），社区活跃窗口在周中。
-- 现实基准（防幸存者偏差）：坚持 12 个月的中位预期是几百到几千关注，爆款是分子不是分母。它是持续分发系统，不是发布日的魔法按钮。
+- The play: one deep thread a week (real numbers and real lessons), with the community's active window falling midweek.
+- A realistic baseline (against survivorship bias): the median expectation after sticking with it for 12 months is a few hundred to a few thousand followers: a breakout is the numerator, not the denominator. This is a sustained distribution system, not a magic button for launch day.
 
 ## Indie Hackers
 
-- 讲故事不发公告：帖子主体是历程、数字、错误，产品链接放文末。发布公告体会被冷落。
+- Tell a story, don't post an announcement: the body of the post is the journey, the numbers, the mistakes, with the product link at the bottom. Announcement-style posts get ignored.
 
-## 分批节奏参考
+## A reference cadence for staggered releases
 
-BetaList（发布前 3–4 周）→ Product Hunt（主场日）→ Fazier/Uneed（同周或次周）→ 目录站长尾（发布后陆续）→ 复盘帖（Indie Hackers / X，反哺下一轮）。
+BetaList (3-4 weeks before launch) → Product Hunt (the main event day) → Fazier / Uneed (the same week or the next) → the directory-site long tail (rolling out after launch) → a retrospective post (Indie Hackers / X, feeding the next round).

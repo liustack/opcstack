@@ -1,177 +1,177 @@
-# product 模式完整流程
+# Product mode in full
 
-本文件是 product 模式的完整执行流程，按步骤 0-5 依次产出。
+This document is the full execution workflow for product mode, produced in order, Step 0 through Step 5.
 
-本流程不是写「故事/传记」，而是抽出可迁移的商业逻辑。
+This workflow is not about writing a "story" or a "biography." It's about extracting transferable business logic.
 
-核心对象是「一个产品的商业结构」，重点在 3 过程 + 5 商业要素 + 叙事/机制/演化，偏「模型解析」。
+The core subject is "a product's business structure," with a focus on 3 processes plus the 5 business factors plus narrative, mechanism, and evolution, leaning toward "model analysis."
 
-**目标：** 用「3 过程 × 5 商业要素」把一个具体产品拆透，得到清晰的商业图谱和可迁移经验。
+**Goal:** use "3 processes × 5 business factors" to fully take apart a specific product, arriving at a clear business map and transferable lessons.
 
-**适用对象：** 单个产品或单一产品线，如 Notion、HeadshotPro、Midjourney、独立开发者的某个 SaaS。
+**Applies to:** a single product or a single product line, for example Notion, HeadshotPro, Midjourney, or an indie developer's SaaS.
 
-## 步骤 0：产品卡片
-
-```
-【产品卡片】
-
-- 产品名：
-- 链接：
-- 公司 / 团队：
-- 上线时间 / 关键版本：
-- 面向人群（目标用户画像）：
-- 一句话描述（帮谁，以什么方式，完成什么任务）：
-- 当前状态：早期 / 成长期 / 成熟期 / 已停摆
-```
-
-## 步骤 1：核心视角速写
-
-### 价值创造
-
-- 这个产品帮谁解决了什么「不安/Job」？
-- 用户在没有它之前，是怎么凑合的？（替代方案）
-- 它的核心「杀手级场景」是什么？（1–3 个）
-
-### 价值交付
-
-- 方案怎么送到用户手里？（自助上手 / 销售驱动 / 渠道分发 / 平台内嵌）
-- 履约的成本结构：边际成本趋零（纯软件），还是随量增长（算力、人工、服务）？
-- 交付质量的稳定性靠什么保证？（自动化 / 流程 / 人）
-
-### 价值捕获
-
-- 收费模式：一次性/订阅/增值版/按量计费/广告/B2B 合同？有什么演化？
-- 谁付钱？（个人/小团队/企业/平台/第三方广告主）
-- 收入结构：大致是「低价大众」还是「高价少量」？
-- 是否有隐性捕获：数据、训练样本、品牌/关系等？
-
-## 步骤 2：商业逻辑检查
-
-用 5 要素拆解（主干），跑「商业叙事检查表」。如：
+## Step 0: the product card
 
 ```
-【人性与需求】
+[Product card]
 
-- 它击中的核心不安/欲望是什么？
-  - 功能型：速度 / 准确度 / 方便？
-  - 情感型：更好看 / 更有控制感 / 更专业？
-  - 社交型：更体面 / 更酷 / 不被落下？
-
-- 典型用户一天里在哪个时刻会自然想到它？
-- 用户有哪些明显的非理性行为被利用或引导？
-  - 冲动购买？订阅忘记退？对「无限」痴迷？对「省时间」极度敏感？
-
-【价值与成本】
-
-- 收入粗结构：
-  - 人均单价：
-  - 付费频次（一次性/每月/每年）：
-  - 付费用户规模（数量级就行）：
-
-- 成本结构：
-  - 变动成本：算力 / 第三方 API / 人工审核 / 客服？
-  - 固定成本：研发 / 服务器基础 / 公司运营？
-
-- 单位经济学：
-  - CAC ≈ ？（有数据就估，没数据就感性判断是高还是低）
-  - LTV ≈ ？（按订阅时长/留存估，用毛利口径，即已扣履约成本，避免和 CAC 比较时重复扣减）
-  - LTV:CAC 大致在什么区间？是否达到经验安全线 3:1？回本周期大致多长？
-  - 毛利大致是 高 / 中 / 低？
-
-- 「赚钱逻辑」一句话：
-  - 靠什么「数学」让它越做越赚钱，而不是越做越亏？
-
-【结构与权力】
-
-- 在价值链上的位置：
-  - 上游：模型提供 / infra / 平台？
-  - 中游：工具层 / 中间件？
-  - 下游：面向最终用户的应用？
-
-- 依赖谁？
-  - 上游：大模型厂商 / 云厂商 / 操作系统 / 分发平台？
-  - 下游：某类行业客户 / 某平台流量 / 某头部渠道？
-
-- 手里有什么难以复制的东西？
-  - 数据？（垂直领域、标注质量）
-  - 分发？（强渠道绑定、平台位）
-  - 体验？（某类独特交互或工作流深度整合）
-  - 品牌？（在细分圈子里成为「默认工具」）
-
-- 它对别人有没有结构性钳制？
-  - 对用户的迁移成本？
-  - 对合作伙伴的替代难度？
-
-【时间与复利】
-
-- 它在积累什么资产？
-  - 产品：代码、功能库、模板、插件生态？
-  - 数据：用户行为、行业语料、专有数据集？
-  - 品牌：在用户心智中的「默认选择」地位？
-  - 关系：行业客户、KOL、生态伙伴？
-
-- 模式是短窗套利型还是长线复利型？两者都是正当资产类别——套利型看窗口长度/回本周期/退出成本/可带走资产，复利型看飞轮与资产沉淀。
-  - 注意别把付费形态当寿命判据：一次性付费的产品可以是长线复利生意（口碑与品牌在滚），订阅制也可能是窗口期套利（红利一过续费归零）。
-
-- 时间轴上的关键节点：
-  - 上线 / 功能大升级 / 转收费 / 关键合作 / 行业事件配合（如大模型发布）？
-
-- 如果行业持续发展 3–5 年，这个产品的位置是越来越好，还是容易被平台收编/替代？
-
-【风险与反脆弱】
-
-- 最大的单点风险：
-  - 平台政策？API 调价/封禁？监管？竞品降价？内容风险？
-
-- 一旦踩中，结果是：
-  - 重伤（收入大幅下降但还能活）？
-  - 直接归零（产品完全无法提供）？
-
-- 已有的风险对冲：
-  - 多供应商？多平台？多产品线？多客群？
-
-- 有没有「利用波动赚钱」的设计？
-  - 趋势行情里高价高毛利？
-  - 趁某技术变革快跑收割迁移成本？
+- Product name:
+- Link:
+- Company / team:
+- Launch date / key versions:
+- Target audience (target user persona):
+- One-line description (who it helps, how, and with what task):
+- Current status: early / growth / mature / defunct
 ```
 
-## 步骤 3：叙事/机制/演化
+## Step 1: a quick sketch of the core lenses
 
-### 叙事
+### Value creation
 
-跑「商业叙事检查表」，检查叙事逻辑。
+- Who does this product help, and with what uneasiness or job?
+- How did users make do before it existed? (Alternatives.)
+- What is its core "killer scenario"? (1-3 of them.)
 
-- 对用户讲什么故事？（一句话）
-- 对投资人/行业讲什么故事？
-- 叙事与现实的差距有多大？
-- 如果叙事退潮（风口过去），现金流还撑得住吗？
+### Value delivery
 
-### 博弈与机制设计
+- How does the solution get into the user's hands? (Self-serve onboarding / sales-driven / channel distribution / embedded in a platform.)
+- The cost structure of fulfillment: does marginal cost approach zero (pure software), or does it grow with volume (compute, labor, service)?
+- What guarantees the stability of delivery quality? (Automation / process / people.)
 
-- 对各方的激励是怎么设计的？
-  - 用户：有什么「用得越多越离不开」的机制？
-  - 合作方：分成/返点/排名规则怎样？
-- 有哪些可能被「规则博弈」玩坏的地方？（比如刷量、作弊、滥用）
+### Value capture
 
-### 创新与演化
+- Pricing model: one-time / subscription / premium tier / usage-based / advertising / B2B contracts? How has it evolved?
+- Who pays? (Individuals / small teams / enterprises / platforms / third-party advertisers.)
+- Revenue structure: roughly "low price, mass volume" or "high price, small volume"?
+- Is there hidden capture: data, training samples, brand or relationships?
 
-- 它利用了什么技术/成本变化？（例如算力便宜、大模型开放）
-- 是从哪个边缘/低端用例切入的？
-- 一旦技术继续演化，上游或平台有没有可能直接把它吞掉？
+## Step 2: business-logic check
 
-## 步骤 4：跑一遍偏差防火墙
+Deconstruct using the 5 factors (the backbone), then run the business-narrative checklist. For example:
 
-拆解成功产品天然带四种偏差，逐条过完才允许进步骤 5：
+```
+[Human nature and demand]
 
-- **幸存者偏差**：同品类死掉的产品是谁？它们是否也具备前文归纳的「成功因素」？找不到失败对照，对应结论降级为「未证实的相关性」。
-- **光环效应**：这个产品最失败的一次发布/功能是什么？同一团队同一打法，为什么那次不灵？
-- **叙事偏差**：官方博客、创始人访谈是营销物料不是史料，关键数字找第三方来源交叉。
-- **结果偏差**：每条候选「结构性经验」反问——如果这个产品失败了，这个决策当时还算对吗？
+- What core uneasiness or desire does it hit?
+  - Functional: speed / accuracy / convenience?
+  - Emotional: looks better / more in control / more professional?
+  - Social: more presentable / cooler / not left behind?
 
-## 步骤 5：输出「可迁移结论」
+- At what moment in a typical user's day does it naturally come to mind?
+- What obvious irrational behaviors are being exploited or nudged?
+  - Impulse purchases? Forgetting to cancel a subscription? An obsession with "unlimited"? Extreme sensitivity to "saving time"?
 
-1. 这款产品在「人性与需求/价值与成本/结构与权力/时间与复利/风险与反脆弱」五个维度上，各自最值得学的一点是什么？
-2. 哪些是可迁移的「结构性经验」，值得严肃学习和吸收？
-3. 哪些是「路径依赖/运气/时代红利」，我没必要模仿（复制），也无法模仿？
-4. 哪里是必须要避坑的错误或坑？
-5. 如果要复制这个产品的结构到其他细分市场，我打算如何实验？
+[Value and cost]
+
+- Rough revenue structure:
+  - Average price per user:
+  - Payment frequency (one-time / monthly / yearly):
+  - Scale of paying users (order of magnitude is fine):
+
+- Cost structure:
+  - Variable costs: compute / third-party APIs / manual review / customer support?
+  - Fixed costs: R&D / server infrastructure / company operations?
+
+- Unit economics:
+  - CAC ≈ ? (Estimate if you have data, otherwise a gut read on whether it's high or low.)
+  - LTV ≈ ? (Estimate from subscription length or retention, on a gross-margin basis — i.e., fulfillment cost already deducted, to avoid double-deducting it when comparing against CAC.)
+  - Roughly what range is LTV:CAC in? Does it reach the rule-of-thumb safety line of 3:1? Roughly how long is the payback period?
+  - Is gross margin roughly high / medium / low?
+
+- The "money-making logic" in one line:
+  - What "math" makes it more profitable the more it grows, instead of less?
+
+[Structure and power]
+
+- Position in the value chain:
+  - Upstream: model provider / infra / platform?
+  - Midstream: tooling layer / middleware?
+  - Downstream: an application facing the end user?
+
+- Who does it depend on?
+  - Upstream: large-model vendors / cloud vendors / operating systems / distribution platforms?
+  - Downstream: a particular industry client base / a particular platform's traffic / a leading channel?
+
+- What does it hold that's hard to replicate?
+  - Data? (Vertical-domain data, labeling quality.)
+  - Distribution? (Strong channel ties, a platform position.)
+  - Experience? (A distinctive interaction, or deep workflow integration.)
+  - Brand? (Become the "default tool" within a niche circle.)
+
+- Does it hold structural leverage over others?
+  - Switching cost for users?
+  - How hard is it for partners to replace it?
+
+[Time and compounding]
+
+- What assets is it accumulating?
+  - Product: code, a feature library, templates, a plugin ecosystem?
+  - Data: user behavior, industry-specific corpora, proprietary datasets?
+  - Brand: "default choice" status in the user's mind?
+  - Relationships: industry clients, KOLs, ecosystem partners?
+
+- Is the model short-window arbitrage or long-line compounding? Both are legitimate asset classes — for arbitrage, look at window length, payback period, exit cost, and portable assets. For compounding, look at the flywheel and asset accumulation.
+  - Be careful not to use the payment form as a proxy for lifespan: a one-time-payment product can be a long-line compounding business (word of mouth and brand keep rolling), and a subscription can just as easily be window-period arbitrage (renewals drop to zero once the payoff fades).
+
+- Key nodes on the timeline:
+  - Launch / a major feature upgrade / switching to paid / a key partnership / riding an industry event (e.g., a major model release)?
+
+- If the industry keeps developing for 3-5 years, does this product's position keep improving, or is it likely to be absorbed or replaced by a platform?
+
+[Risk and antifragility]
+
+- The biggest single point of risk:
+  - Platform policy? API repricing or a ban? Regulation? A competitor cutting prices? Content risk?
+
+- If it gets hit, what's the outcome:
+  - A severe wound (revenue drops sharply but it survives)?
+  - Straight to zero (the product simply can't be delivered anymore)?
+
+- Existing risk hedges:
+  - Multiple suppliers? Multiple platforms? Multiple product lines? Multiple customer segments?
+
+- Is there a design that profits from volatility?
+  - Higher price, higher margin during a trend cycle?
+  - Riding a technology shift to capture switching costs quickly?
+```
+
+## Step 3: narrative, mechanism, evolution
+
+### Narrative
+
+Run the business-narrative checklist to check the narrative logic.
+
+- What story does it tell users? (One line.)
+- What story does it tell investors or the industry?
+- How big is the gap between the narrative and reality?
+- If the narrative fades (the trend passes), can cash flow still hold it up?
+
+### Game design and mechanism design
+
+- How are the incentives designed for each party?
+  - Users: what mechanism makes them more locked in the more they use it?
+  - Partners: how do the revenue share, rebates, and ranking rules work?
+- Where could "gaming the rules" break it? (For example: fake volume, cheating, abuse.)
+
+### Innovation and evolution
+
+- What technology or cost shift does it ride on? (For example, cheaper compute, open large models.)
+- Which fringe or low-end use case did it enter from?
+- If the technology keeps evolving, could an upstream player or platform simply swallow it?
+
+## Step 4: run the bias firewall
+
+Deconstructing a successful product naturally carries four biases. Work through every one before moving on to Step 5:
+
+- **Survivorship bias**: which products in the same category died? Did they also have the "success factors" identified above? If you can't find a failure counterpart, downgrade the corresponding conclusion to "an unverified correlation."
+- **Halo effect**: what was this product's single most failed launch or feature? Same team, same playbook, so why didn't it work that time?
+- **Narrative bias**: official blog posts and founder interviews are marketing material, not historical record. Cross-check key numbers against third-party sources.
+- **Outcome bias**: for every candidate "structural lesson," ask the reverse question. If this product had failed, would this decision still have been the right one at the time?
+
+## Step 5: output the transferable conclusions
+
+1. Across the five dimensions (human nature and demand / value and cost / structure and power / time and compounding / risk and antifragility) what is the single most worthwhile lesson in each?
+2. Which are transferable "structural lessons," worth studying and absorbing seriously?
+3. Which are "path dependency, luck, or an era-specific windfall" that you don't need to imitate (or copy), and can't imitate anyway?
+4. Where are the mistakes or pitfalls that need to be avoided?
+5. If you wanted to replicate this product's structure in a different niche, how would you plan to experiment?
