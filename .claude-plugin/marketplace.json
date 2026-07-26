@@ -65,6 +65,16 @@
       "skills": [
         "./skills/opc-launch"
       ]
+    },
+    {
+      "name": "opc-influence",
+      "description": "商业说服与谈判：拆开立场与利益、读出对方在守什么、算清双方退路，把请求做成对方接得住的形状",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "skills": [
+        "./skills/opc-influence"
+      ]
     }
   ]
 }
