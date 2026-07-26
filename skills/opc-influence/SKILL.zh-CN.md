@@ -1,6 +1,6 @@
 ---
 name: opc-influence
-description: Business persuasion and negotiation for a one-person company. Work out what both sides actually want, what each walks away to, and the shape of an ask the other side can accept. Use when the user says 客户不接受 / 怎么让客户同意 / 报价谈不拢 / 涨价怎么开口 / 对方压价 / 合作分成谈不下来 / how do I get this client to agree / they want a discount / renegotiate this contract. Do not trigger for growth or funnel problems（归 opc-marketing）, for examining one's own judgment or life direction（归 liustack 的 socrates）, or for pure copywriting once the terms are already settled.
+description: Business persuasion and negotiation for a one-person company. Work out what both sides actually want, what each walks away to, and the shape of an ask the other side can accept. Use when the user says 客户不接受 / 怎么让客户同意 / 报价谈不拢 / 涨价怎么开口 / 对方压价 / 合作分成谈不下来 / how do I get this client to agree / they want a discount / renegotiate this contract. Do not trigger for growth or funnel problems（归 opc-marketing）, for examining one's own judgment or life direction（归 liustack 的 deep-thought）, or for pure copywriting once the terms are already settled.
 ---
 
 # opc-influence：商业说服与谈判
@@ -23,6 +23,8 @@ description: Business persuasion and negotiation for a one-person company. Work 
 **利益可以交换，立场只能对半劈。**多数卡在一个数字上的谈判，是两个从没被说出口的利益。
 
 如果你说不出对方的利益是什么，那就是第一件要弄清的事，通常只隔着一个问题：「什么条件下这件事对你来说是个容易的 yes？」
+
+两份 reference 是这套流程的材料。`references/reading-people.md` 讲怎么读对方、什么能推动他，第二步和第四步用。`references/coordination.md` 讲双方都想成交却找不到形状时怎么收敛，第一步卡住时用。
 
 ## 第二步：读出他们在守什么
 
