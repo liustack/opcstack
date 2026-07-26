@@ -101,6 +101,37 @@ This checklist is for the person executing the business (referred to as "I" thro
 - Does this project's pressure curve match your life situation? (For example, family, health, energy.)
 - In the worst case, how badly would "I"'s life be dragged down?
 
+## Two lenses on where the output actually comes from
+
+Both arrived from liustack's socrates lattice, where they sat in the strategy layer and never belonged: they analyse a business, not a judgment. A checkup is where they earn their keep.
+
+### Leverage: what one unit of input moves
+
+A one-person company cannot add people, so the only way output grows is if each unit of input moves more than it used to. Four kinds, and only three of them are leverage.
+
+- **Code.** Software you wrote once that keeps working while you sleep. Zero marginal cost per additional user.
+- **Media.** Content you published once that keeps bringing people in. Same property.
+- **Capital.** Money that buys an outcome you would otherwise spend months producing.
+- **Labour, which is not leverage.** Your own hours, and anyone you hire by the hour. Output scales linearly with input and stops the moment you do.
+
+The check: name which of the first three is actually carrying this business. If the honest answer is "my hours", the business has no leverage, and every growth plan built on it is a plan to work more. That is the single most common failure shape in one-person companies, and it is invisible from the revenue line, which can look fine right up until the person stops.
+
+Source worth reading: *The Almanack of Naval Ravikant*.
+
+### The vital few: where the results concentrate
+
+Roughly speaking, most of the result comes from a small part of the effort, and the ratio is rarely as tidy as 80/20. What matters is not the number but the question: **has anyone actually checked which part?**
+
+The check, in order:
+
+1. Break revenue down by feature, by customer, by channel. Not by how much work each took, by what each returned.
+2. Find the concentration. Most one-person products have one feature that carries the paying customers, and it is frequently not the one the founder finds most interesting.
+3. Compare that against where the last three months of work went.
+
+The gap between those two is the finding. A common shape: 80% of the time went into features that carry 20% of the value, while the thing customers actually pay for has not been touched since it shipped.
+
+Careful with the inverse: the small part carrying the results is often only carrying them because the rest exists. Cutting the other 80% wholesale is how a product becomes unusable while its metrics still look concentrated.
+
 ## The business-model evaluation SOP
 
 Used to give business logic a rational checkup.
