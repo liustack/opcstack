@@ -1,6 +1,6 @@
 # Two models for getting to agreement
 
-Both of these came out of liustack's socrates lattice, where they sat awkwardly: they describe how two parties converge, which is outward-facing work, while that skill turned inward. They belong here.
+Both of these came out of liustack's deep-thought lattice, where they sat awkwardly: they describe how two parties converge, which is outward-facing work, while that skill turned inward. They belong here.
 
 Read this when Step 1 (position versus interest) has left you with two parties who both want a deal and cannot find the shape of it.
 
