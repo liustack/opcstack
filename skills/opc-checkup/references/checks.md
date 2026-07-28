@@ -103,8 +103,6 @@ This checklist is for the person executing the business (referred to as "I" thro
 
 ## Two lenses on where the output actually comes from
 
-Both arrived from liustack's deep-thought lattice, where they sat in the strategy layer and never belonged: they analyse a business, not a judgment. A checkup is where they earn their keep.
-
 ### Leverage: what one unit of input moves
 
 A one-person company cannot add people, so the only way output grows is if each unit of input moves more than it used to. Four kinds, and only three of them are leverage.

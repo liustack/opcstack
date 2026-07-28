@@ -1,6 +1,6 @@
 ---
 name: opc-influence
-description: Business persuasion and negotiation for a one-person company. Work out what both sides actually want, what each walks away to, and the shape of an ask the other side can accept. Use when the user says 客户不接受 / 怎么让客户同意 / 报价谈不拢 / 涨价怎么开口 / 对方压价 / 合作分成谈不下来 / how do I get this client to agree / they want a discount / renegotiate this contract. Do not trigger for growth or funnel problems（归 opc-marketing）, for examining one's own judgment or life direction（归 liustack 的 deep-thought）, or for pure copywriting once the terms are already settled.
+description: Business persuasion and negotiation for a one-person company. Work out what both sides actually want, what each walks away to, and the shape of an ask the other side can accept. Use when the user says 客户不接受 / 怎么让客户同意 / 报价谈不拢 / 涨价怎么开口 / 对方压价 / 合作分成谈不下来 / how do I get this client to agree / they want a discount / renegotiate this contract. Do not trigger for growth or funnel problems（归 opc-marketing）, for examining one's own judgment or life direction（归 opc-founder）, or for pure copywriting once the terms are already settled.
 ---
 
 # opc-influence: business persuasion and negotiation
