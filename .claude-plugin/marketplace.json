@@ -75,6 +75,16 @@
       "skills": [
         "./skills/opc-influence"
       ]
+    },
+    {
+      "name": "opc-founder",
+      "description": "一人公司的「人」这一半：要不要辞职单干、坚持还是停、专家管理还是独立、适不适合。现实约束先行，有依据就给判断",
+      "source": "./",
+      "strict": false,
+      "version": "0.1.0",
+      "skills": [
+        "./skills/opc-founder"
+      ]
     }
   ]
 }

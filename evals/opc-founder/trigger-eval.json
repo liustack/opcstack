@@ -1,0 +1,107 @@
+{
+  "skill_name": "opc-founder",
+  "type": "trigger",
+  "note_revision": "Written 2026-07-28 with the skill. Broad career words (职业规划/被裁员) are positives because the stack itself anchors the audience: whoever installed opcstack is the indie-leaning person these words come from. Negatives are the six neighbours: checkup, niche, influence, feature decisions, venting, crisis.",
+  "cases": [
+    {
+      "id": 1,
+      "query": "/opc-founder",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "我做后端八年了，在继续做专家、转管理和独立开发之间摇摆了两年，陪我把这个职业选择认真捋一遍",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "被裁员了，赔了 N+1。一直想做独立开发，要不要趁这个机会试试，还是赶紧找下家",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "刚提了离职，下一步还没想好，帮我做个职业规划",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "独立开发做到第十四个月了，收入还是只有三千多，我到底还要不要坚持",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "我现在一半时间接外包一半时间做自己的产品，感觉两头都没做好，该收哪头",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "should I quit my job and go indie? I have about 14 months of runway and a side project with 40 users",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "我适不适合自由职业？我受不了没人管自己的日子，但也受不了开会",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "最近特别焦虑，看同龄人都起来了，我这个一人公司第二年还在原地，动摇得厉害",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "just got laid off, what now. torn between job hunting and finally trying the solo thing",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "我这个 SaaS 月流水八千但获客成本涨了一倍，这生意还成不成立，帮我体检一下",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "宠物殡葬这个细分市场值不值得进",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "怎么让老客户接受从月付改成年付",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "订阅提醒这个功能有没有必要做，帮我把需求捋清楚",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "今天客户又改需求了，好烦，吐槽一下",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "这几个月完全睡不着，感觉撑不下去了，活着没什么意思",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "帮我把辞职信写了，简短体面",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "独立开发者第一年平均收入大概多少",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "review my pricing page copy before I ship it",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "拆解一下 Pieter Levels 是怎么做起来的",
+      "should_trigger": false
+    }
+  ]
+}
