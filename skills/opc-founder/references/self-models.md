@@ -32,6 +32,11 @@ Open this when the user's words match a cue below, or when the call is hard to r
 - **Heard as**: "This worked last time, so the judgment was right."
 - **Ask instead**: with only what was known then, was that a good bet or a lucky one? A good bet can lose and a lucky one can win. The lesson transfers only if the judgment was sound.
 
+## Hindsight
+
+- **Heard as**: "I knew from the start this would happen."
+- **Ask instead**: did you write that prediction down, or say it to anyone, at the time? If not, memory is bending toward the outcome. Review what was actually believed then, not what the ending makes it feel like.
+
 ## The introspection limit
 
 - **Heard as**: "I've thought it through, I'm suited to this" (or "I'm not").

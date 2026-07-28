@@ -1,7 +1,7 @@
 {
   "skill_name": "opc-founder",
   "type": "trigger",
-  "note_revision": "Written 2026-07-28 with the skill. Broad career words (职业规划/被裁员) are positives because the stack itself anchors the audience: whoever installed opcstack is the indie-leaning person these words come from. Negatives are the six neighbours: checkup, niche, influence, feature decisions, venting, crisis.",
+  "note_revision": "Written 2026-07-28 with the skill. Broad career words (职业规划/被裁员) are positives because the stack itself anchors the audience: whoever installed opcstack is the indie-leaning person these words come from. Negatives are the six neighbours: checkup, niche, influence, feature decisions, venting, crisis. 2026-07-28 later: the periodic-look row added as the seventh call, with the pair that guards its line: reviewing the person's leg is a positive, reviewing the quarter's growth data belongs to opc-marketing.",
   "cases": [
     {
       "id": 1,
@@ -101,6 +101,16 @@
     {
       "id": 20,
       "query": "拆解一下 Pieter Levels 是怎么做起来的",
+      "should_trigger": false
+    },
+    {
+      "id": 21,
+      "query": "独立做了 18 个月，收入稳定但没增长。帮我把这一段盘一盘，看看下一段该怎么打",
+      "should_trigger": true
+    },
+    {
+      "id": 22,
+      "query": "复盘一下这个季度的增长数据，哪个渠道拉胯了",
       "should_trigger": false
     }
   ]

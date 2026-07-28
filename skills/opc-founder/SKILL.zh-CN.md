@@ -1,6 +1,6 @@
 ---
 name: opc-founder
-description: The person half of a one-person company. Examine the operator's own calls (quit and go solo or not, keep going or stop, expert or management or indie, freelance or product) with reality first and grounds attached. Use when the user says 要不要辞职单干 / 离职了不知道下一步 / 被裁员了要不要趁机试试 / 职业规划 / 职场规划 / 人生下一步怎么走 / 独立开发还能不能坚持 / 转管理还是继续独立 / 我适不适合自由职业 / 接外包还是做产品 / 做不下去了要不要停 / should I quit and go indie / just got laid off, what now / can I keep doing this solo. Do not trigger for business viability itself（归 opc-checkup）, market entry calls（归 opc-niche）, persuading others（归 opc-influence）, feature and requirement decisions, or a mental-health crisis, which needs professional help rather than a skill.
+description: The person half of a one-person company. Examine the operator's own calls (quit and go solo or not, keep going or stop, expert or management or indie, freelance or product) with reality first and grounds attached. Use when the user says 要不要辞职单干 / 离职了不知道下一步 / 被裁员了要不要趁机试试 / 职业规划 / 职场规划 / 人生下一步怎么走 / 独立开发还能不能坚持 / 转管理还是继续独立 / 我适不适合自由职业 / 接外包还是做产品 / 做不下去了要不要停 / 做了一年了帮我盘一盘 / 当初的判断还对吗 / should I quit and go indie / just got laid off, what now / can I keep doing this solo. Do not trigger for business viability itself（归 opc-checkup）, market entry calls（归 opc-niche）, persuading others（归 opc-influence）, feature and requirement decisions, or a mental-health crisis, which needs professional help rather than a skill.
 ---
 
 # opc-founder：一人公司的「人」这一半
@@ -18,7 +18,7 @@ description: The person half of a one-person company. Examine the operator's own
 - 依据够，给倾向、它靠什么成立、最可能推翻它的条件。不够，说清已经能下的结论，和最便宜的那一件能挪动判断的证据。
 - 一轮至多一问，问答案最能改变判断的那个。局面已经摆着的不问。
 
-## 六类决定
+## 七类决定
 
 | 决定 | 判据 | 最常见的坑 |
 |---|---|---|
@@ -28,6 +28,7 @@ description: The person half of a one-person company. Examine the operator's own
 | 方向摇摆：产品、外包、内容 | 哪个在复利，哪个在按小时重卖 | 全都想要，结果每周都在换挡 |
 | 我适不适合 | 真正干过的边界在哪，试验出过什么证据 | 靠内省定论。未来的自己出现在试验里，不在反思里 |
 | 心态：焦虑、比较、动摇 | 情绪说明这事要紧，不说明这事错了 | 把「这让我难受」读成「这是错的」 |
+| 阶段回看：做了一段时间，接下来怎么走 | 上一段证实了什么、证伪了什么（判断对还是运气好）、什么在积累、入场假设还成立几条 | 后见之明改写记忆（「我早知道会这样」），或者盘感受不盘假设 |
 
 这张表就是调度：先认出用户实际在哪个决定里，再带着那一行的坑去干那一行的判据。
 
@@ -41,5 +42,7 @@ description: The person half of a one-person company. Examine the operator's own
 - 让别人点头：归 `opc-influence`。
 - 某个功能做不做、需求怎么定：不归这个栈的人这一侧。
 - 不是心理治疗，不做任何诊断。情绪是判断的输入信号。出现危机迹象时直说这需要专业帮助，并停止省察。
+
+阶段回看默认对着记忆做，并直说记忆会朝已发生的结果弯，那是更弱的对照，不是没有对照。用户要写下来才写。回看的钱那一半配 `opc-checkup`。
 
 用户的话对上 `references/self-models.md` 里的信号，或者这个决定难以回头时，打开它，跑对应的反问句。
